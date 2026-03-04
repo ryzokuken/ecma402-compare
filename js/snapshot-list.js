@@ -6,7 +6,7 @@
 
 /* global DateUtils, Base */
 
-const REPO_URL = "https://github.com/tc39/ecma262";
+const REPO_URL = "https://github.com/tc39/ecma402";
 
 class SnapshotList extends Base {
   async run(type) {

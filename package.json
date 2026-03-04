@@ -1,6 +1,6 @@
 {
-  "name": "ecma262-compare",
-  "description": "ECMAScript Language Specification Comparator",
+  "name": "ecma402-compare",
+  "description": "ECMA-402 Internationalization API Specification Comparator",
   "dependencies": {},
   "devDependencies": {
     "eslint": "^6.8.0"

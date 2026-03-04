@@ -6,8 +6,8 @@
 
 /* global DateUtils, Base */
 
-const REPO_URL = "https://github.com/tc39/ecma262";
-const REPO_API_URL = "https://api.github.com/repos/tc39/ecma262";
+const REPO_URL = "https://github.com/tc39/ecma402";
+const REPO_API_URL = "https://api.github.com/repos/tc39/ecma402";
 
 const JSON_VERSION = "1";
 

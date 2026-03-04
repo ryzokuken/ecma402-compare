@@ -295,7 +295,7 @@ class CacheChecker:
 
 
 class LocalRepository:
-    DIR = os.path.join('.', 'ecma262')
+    DIR = os.path.join('.', 'ecma402')
     URL = Config.REPO_URL
 
     @classmethod
@@ -697,7 +697,7 @@ class RevisionRenderer:
         '12': 'December',
     }
 
-    __SPEC_DATE_PREFIX = 'Draft ECMA-262 / '
+    __SPEC_DATE_PREFIX = 'Draft ECMA-402 / '
 
     __SPEC_DATE_PAT = re.compile(
         '{}(?:{}) \\d+, \\d+'.format(__SPEC_DATE_PREFIX,
@@ -722,10 +722,16 @@ class RevisionRenderer:
     @classmethod
     def remove_unnecessary_deps(cls, package_json_path):
         package = FileUtils.read_json(package_json_path)
-        ecmarkup_ver = package["devDependencies"]["ecmarkup"]
-        package["devDependencies"] = {
-            "ecmarkup": ecmarkup_ver
-        }
+        # ecma262 puts ecmarkup in devDependencies; ecma402 puts it in
+        # dependencies alongside @tc39/ecma262-biblio (also needed at build time)
+        if "devDependencies" in package and "ecmarkup" in package["devDependencies"]:
+            ecmarkup_ver = package["devDependencies"]["ecmarkup"]
+            package["devDependencies"] = {"ecmarkup": ecmarkup_ver}
+        if "dependencies" in package and "ecmarkup" in package["dependencies"]:
+            package["dependencies"] = {
+                k: v for k, v in package["dependencies"].items()
+                if k == "ecmarkup" or k.startswith("@tc39/")
+            }
         FileUtils.write_json(package_json_path, package)
 
     @classmethod
@@ -1308,7 +1314,7 @@ class Deduplicate:
         cls.__save_map(hash_map)
 
 
-parser = argparse.ArgumentParser(description='Update ecma262 history data')
+parser = argparse.ArgumentParser(description='Update ecma402 history data')
 
 parser.add_argument('--skip-cache', action='store_true',
                     help='Skip cache')
@@ -1319,7 +1325,7 @@ parser.add_argument('--skip-list', action='store_true',
                     help='Skip updating list')
 subparsers = parser.add_subparsers(dest='command')
 subparsers.add_parser('clone',
-                      help='Clone ecma262 repository')
+                      help='Clone ecma402 repository')
 subparser_update = subparsers.add_parser('update',
                                          help='Update all revisions')
 subparser_update.add_argument('-c', type=int,

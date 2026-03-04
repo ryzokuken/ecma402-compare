@@ -1,15 +1,8 @@
 {
-  "repo_url": "https://github.com/tc39/ecma262/",
-  "api_url": "https://api.github.com/repos/tc39/ecma262/",
-  "first_rev": "5c8b8d726564c03d94b53981e766a87135ff01b6",
-  "update_first_rev": "5c8b8d726564c03d94b53981e766a87135ff01b6",
-  "first_pr": 1,
-  "releases": [
-    "es2016",
-    "es2017",
-    "es2018",
-    "es2019",
-    "es2020",
-    "es2021"
-  ]
+ "repo_url": "https://github.com/tc39/ecma402/",
+ "api_url": "https://api.github.com/repos/tc39/ecma402/",
+ "first_rev": "347d26405d39f8361c6202ae662ab424700af37c",
+ "update_first_rev": "347d26405d39f8361c6202ae662ab424700af37c",
+ "first_pr": 1,
+ "releases": []
 }
