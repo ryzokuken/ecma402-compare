@@ -1,1 +1,170 @@
-[]
+[
+ {
+  "base": "6f9c75e3e724b077a54a0baae9ca0955c260d430",
+  "created_at": "2026-02-17T00:39:30Z",
+  "head": "403dca8b2c6072eb7d32c92ff6865cbd951674d1",
+  "login": "ptomato",
+  "number": 1044,
+  "ref": "temporal-stage-4",
+  "revs": [
+   {
+    "adate": "2026-02-26T11:48:58-08:00",
+    "author": "Philip Chimento",
+    "date": "2026-02-26T11:48:58-08:00",
+    "hash": "403dca8b2c6072eb7d32c92ff6865cbd951674d1",
+    "parents": "0f2a5e699eabfbb203df877a535d672c21c53c09",
+    "subject": "(fixup) Express epoch nanoseconds in mathematical values"
+   },
+   {
+    "adate": "2026-02-25T11:19:12-08:00",
+    "author": "Philip Chimento",
+    "date": "2026-02-25T11:19:12-08:00",
+    "hash": "0f2a5e699eabfbb203df877a535d672c21c53c09",
+    "parents": "4cf4fac0c36f702238198bb2eb48dcc5f16545a5",
+    "subject": "(fixup) Fix assertion failure in NonISOCalendarDateToISO"
+   },
+   {
+    "adate": "2026-02-25T11:13:43-08:00",
+    "author": "Philip Chimento",
+    "date": "2026-02-25T11:13:43-08:00",
+    "hash": "4cf4fac0c36f702238198bb2eb48dcc5f16545a5",
+    "parents": "9d19c9aa416bfa8ede7f4a4d4936923437575c17",
+    "subject": "(optional) Reinstate CanonicalizeUValue and override CanonicalizeCalendar"
+   },
+   {
+    "adate": "2026-02-25T10:38:17-08:00",
+    "author": "Philip Chimento",
+    "date": "2026-02-25T10:38:17-08:00",
+    "hash": "9d19c9aa416bfa8ede7f4a4d4936923437575c17",
+    "parents": "4359e61815d1b06fd686e8a23fb1117ac6224aad",
+    "subject": "(fixup) Reinstate GetOption"
+   },
+   {
+    "adate": "2026-02-20T18:12:53-08:00",
+    "author": "Philip Chimento",
+    "date": "2026-02-20T18:20:27-08:00",
+    "hash": "4359e61815d1b06fd686e8a23fb1117ac6224aad",
+    "parents": "36fa7632fa19beef4acef827b798dc7e6ee32ce0",
+    "subject": "Normative: Intl Era/Month Code stage 4"
+   },
+   {
+    "adate": "2026-02-20T17:22:04-08:00",
+    "author": "Philip Chimento",
+    "date": "2026-02-20T18:11:42-08:00",
+    "hash": "36fa7632fa19beef4acef827b798dc7e6ee32ce0",
+    "parents": "d9dfd09bfca94b2bdf9cfbe26570ac387db99b9e",
+    "subject": "TEMP: Move CanonicalizeUValue to ECMA-262"
+   },
+   {
+    "adate": "2026-02-16T12:31:54-08:00",
+    "author": "Philip Chimento",
+    "date": "2026-02-20T18:11:42-08:00",
+    "hash": "d9dfd09bfca94b2bdf9cfbe26570ac387db99b9e",
+    "parents": "cf526eb86375c8355f576d14dd491fea428b6ce2",
+    "subject": "Normative: Temporal stage 4"
+   }
+  ],
+  "title": "Normative: Temporal and Intl Era/Month Code stage 4",
+  "updated_at": "2026-03-04T21:03:41Z"
+ },
+ {
+  "base": "7bbef9f4f3449ca8ae2c7deeb63712e150f5ad5a",
+  "created_at": "2025-08-09T03:30:28Z",
+  "head": "c8311b7ed5578fa19294ed741af4357eb61fd17e",
+  "login": "sffc",
+  "number": 1022,
+  "ref": "intlmv-limits",
+  "revs": [
+   {
+    "adate": "2025-08-08T20:16:23-07:00",
+    "author": "Shane F. Carr",
+    "date": "2025-08-08T20:16:23-07:00",
+    "hash": "c8311b7ed5578fa19294ed741af4357eb61fd17e",
+    "parents": "5bb2a84a4496169ae45b79152f1074504ad48244",
+    "subject": "Normative: Add limit on number of significant digits"
+   },
+   {
+    "adate": "2025-08-08T19:46:29-07:00",
+    "author": "Shane F. Carr",
+    "date": "2025-08-08T20:15:55-07:00",
+    "hash": "5bb2a84a4496169ae45b79152f1074504ad48244",
+    "parents": "7bbef9f4f3449ca8ae2c7deeb63712e150f5ad5a",
+    "subject": "Normative: Increase bounds of Intl MV"
+   }
+  ],
+  "title": "Normative: Increase limits on Intl MV and explicitly limit significant digits",
+  "updated_at": "2026-02-19T23:36:29Z"
+ },
+ {
+  "base": "4a2dae4c04e7fdc9e9de5946fbcdb31b073e4040",
+  "created_at": "2025-06-13T10:08:02Z",
+  "head": "9a795747f63f5567791e7e596b1f46f87152dbb2",
+  "login": "gesa",
+  "number": 1012,
+  "ref": "es2025",
+  "revs": [
+   {
+    "adate": "2025-06-12T15:14:38+02:00",
+    "author": "Aki \ud83c\udf39",
+    "date": "2025-06-16T13:22:14+02:00",
+    "hash": "9a795747f63f5567791e7e596b1f46f87152dbb2",
+    "parents": "4a2dae4c04e7fdc9e9de5946fbcdb31b073e4040",
+    "subject": "Edits to ready this edition for print(able) publication"
+   },
+   {
+    "adate": "2025-04-01T14:05:20+02:00",
+    "author": "Ujjwal Sharma",
+    "date": "2025-04-01T14:05:20+02:00",
+    "hash": "4a2dae4c04e7fdc9e9de5946fbcdb31b073e4040",
+    "parents": "e3f726036a9aec45ffc3dde2832492facdecc227",
+    "subject": "Meta: Update metadata for ES2025"
+   }
+  ],
+  "title": "Optional merge: Edits to ready this edition for print(able) publication",
+  "updated_at": "2025-06-16T13:19:55Z"
+ },
+ {
+  "base": "f7fbe5cbc7c09551885bc270a515684435571b4c",
+  "created_at": "2025-06-12T11:45:25Z",
+  "head": "f6a1e50059d4dcd4bf57101dcaddda3ab1da66fc",
+  "login": "gesa",
+  "number": 1011,
+  "ref": "es2025-edits",
+  "revs": [
+   {
+    "adate": "2025-06-16T13:01:14+02:00",
+    "author": "Aki \ud83c\udf39",
+    "date": "2025-06-16T13:01:14+02:00",
+    "hash": "f6a1e50059d4dcd4bf57101dcaddda3ab1da66fc",
+    "parents": "53306882d4416c2df5ed552a8f0f92253fa49381",
+    "subject": "Specify prince for books, delete redundant styles"
+   },
+   {
+    "adate": "2025-06-13T11:53:55+02:00",
+    "author": "Aki \ud83c\udf39",
+    "date": "2025-06-13T11:59:39+02:00",
+    "hash": "53306882d4416c2df5ed552a8f0f92253fa49381",
+    "parents": "9e9b75b306bbe6ab2f3f93418ba09fa7a1a06d15",
+    "subject": "Add explicit width for Tables 31 & 32"
+   },
+   {
+    "adate": "2025-06-13T11:04:14+02:00",
+    "author": "Aki \ud83c\udf39",
+    "date": "2025-06-13T11:07:07+02:00",
+    "hash": "9e9b75b306bbe6ab2f3f93418ba09fa7a1a06d15",
+    "parents": "5d0ced2a9c0d6c5aee54d49b6d90e3d8021e3c5a",
+    "subject": "Suggested changes from review"
+   },
+   {
+    "adate": "2025-06-12T13:40:06+02:00",
+    "author": "Aki \ud83c\udf39",
+    "date": "2025-06-12T14:33:39+02:00",
+    "hash": "5d0ced2a9c0d6c5aee54d49b6d90e3d8021e3c5a",
+    "parents": "65cb5f19aa3e75897ff2bf8d74bed6c661ccb5d8",
+    "subject": "Fixes from publication process meaningful from year-to-year"
+   }
+  ],
+  "title": "Markup: Fixes from publication process meaningful from year-to-year",
+  "updated_at": "2025-06-16T11:33:35Z"
+ }
+]

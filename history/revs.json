@@ -1,1 +1,330 @@
-[]
+[
+ {
+  "adate": "2026-02-19T14:47:07-08:00",
+  "author": "Frank Yung-Fong Tang",
+  "date": "2026-02-19T17:47:07-05:00",
+  "hash": "70b0ecc28066100c4d0a43e84ad2a419cda130ae",
+  "parents": "7c2d77b6f2be8f45bedd7fd8e43ccb2b34a92f66",
+  "subject": "Normative: Intl Locale info (#942)"
+ },
+ {
+  "adate": "2026-02-19T14:38:23-08:00",
+  "author": "Ben Allen",
+  "date": "2026-02-19T17:38:23-05:00",
+  "hash": "7c2d77b6f2be8f45bedd7fd8e43ccb2b34a92f66",
+  "parents": "99630b4ebe95cbe64c4e8e33f0bada33d1f004c0",
+  "subject": "Editorial: Refer to PluralRules instance data as \"slots\" rather than \"options\" (#1020)"
+ },
+ {
+  "adate": "2026-02-19T15:42:10-05:00",
+  "author": "Richard Gibson",
+  "date": "2026-02-19T15:42:10-05:00",
+  "hash": "99630b4ebe95cbe64c4e8e33f0bada33d1f004c0",
+  "parents": "cf526eb86375c8355f576d14dd491fea428b6ce2",
+  "subject": "Editorial: Refer to language tags as \"well-formed\" rather than \"structurally valid\" (#1008)"
+ },
+ {
+  "adate": "2026-02-19T15:36:04-08:00",
+  "author": "Shane F. Carr",
+  "date": "2026-02-19T15:36:04-08:00",
+  "hash": "6f9c75e3e724b077a54a0baae9ca0955c260d430",
+  "parents": "70b0ecc28066100c4d0a43e84ad2a419cda130ae",
+  "subject": "Create notes-2026-02-19.md"
+ },
+ {
+  "adate": "2026-01-23T10:53:59-08:00",
+  "author": "Frank Yung-Fong Tang",
+  "date": "2026-01-23T10:53:59-08:00",
+  "hash": "cf526eb86375c8355f576d14dd491fea428b6ce2",
+  "parents": "1e565364380b446b6e88af9ee0a91aa989a461a8",
+  "subject": "Normative: Add 1 new numbering system for Unicode 17 (#1035)"
+ },
+ {
+  "adate": "2026-01-22T13:02:50-05:00",
+  "author": "Richard Gibson",
+  "date": "2026-01-22T13:02:50-05:00",
+  "hash": "1e565364380b446b6e88af9ee0a91aa989a461a8",
+  "parents": "33710e2da3363f5993b3fe57ced03a925bd01442",
+  "subject": "Editorial: Replace prose with use of mathematical functions (#1041)"
+ },
+ {
+  "adate": "2026-01-21T21:12:37Z",
+  "author": "Linus Groh",
+  "date": "2026-01-21T16:12:37-05:00",
+  "hash": "33710e2da3363f5993b3fe57ced03a925bd01442",
+  "parents": "51722500c1d1b6b6660fa1699520cb2f1f01f939",
+  "subject": "Editorial: Use GetOptionsObject from ECMA-262 (#1039)"
+ },
+ {
+  "adate": "2026-01-12T16:05:33-08:00",
+  "author": "Shane F. Carr",
+  "date": "2026-01-12T16:05:33-08:00",
+  "hash": "51722500c1d1b6b6660fa1699520cb2f1f01f939",
+  "parents": "624ed38ff9570388d2e8d5540bd7db571d2b6116",
+  "subject": "Update and rename notes-2025-01-08.md to notes-2026-01-08.md"
+ },
+ {
+  "adate": "2026-01-12T16:04:58-08:00",
+  "author": "Shane F. Carr",
+  "date": "2026-01-12T16:04:58-08:00",
+  "hash": "624ed38ff9570388d2e8d5540bd7db571d2b6116",
+  "parents": "759e671c6164951b0a4ac25d8fd787fb8e66c813",
+  "subject": "Create notes-2025-01-08.md"
+ },
+ {
+  "adate": "2025-12-19T18:32:52Z",
+  "author": "Linus Groh",
+  "date": "2025-12-19T13:32:52-05:00",
+  "hash": "759e671c6164951b0a4ac25d8fd787fb8e66c813",
+  "parents": "42a3b281b036bb514f1cf389c41a4ea83a5fcbe8",
+  "subject": "Editorial: Fix typo in SetNumberFormatDigitOptions option name (#1038)"
+ },
+ {
+  "adate": "2025-12-08T20:06:40-06:00",
+  "author": "Shane F. Carr",
+  "date": "2025-12-08T20:06:40-06:00",
+  "hash": "42a3b281b036bb514f1cf389c41a4ea83a5fcbe8",
+  "parents": "7344f4219a54dad6ecfe261d121f7463e016726c",
+  "subject": "Create notes-2025-12-04.md"
+ },
+ {
+  "adate": "2025-10-22T15:49:59-07:00",
+  "author": "Frank Yung-Fong Tang",
+  "date": "2025-12-04T19:30:45+01:00",
+  "hash": "f4012d7e4c243db7c40aa42ae456e4d6841594a4",
+  "parents": "7dc4a6d8cddca0d8f63b296b4442101f7f39df9f",
+  "subject": "Normative: set compatDisplay only if notation is \"compact\""
+ },
+ {
+  "adate": "2025-12-04T11:44:17+01:00",
+  "author": "Andr\u00e9 Bargull",
+  "date": "2025-12-04T17:28:10+01:00",
+  "hash": "7dc4a6d8cddca0d8f63b296b4442101f7f39df9f",
+  "parents": "3b780a60841a160ed06a833b75c8e7611f1c3b85",
+  "subject": "Editorial: \"languageDisplay\" can be undefined in Intl.DisplayNames.prototype.resolvedOptions"
+ },
+ {
+  "adate": "2025-12-04T16:08:32-08:00",
+  "author": "Ben Allen",
+  "date": "2025-12-04T16:08:32-08:00",
+  "hash": "7344f4219a54dad6ecfe261d121f7463e016726c",
+  "parents": "f4012d7e4c243db7c40aa42ae456e4d6841594a4",
+  "subject": "Normative: Updated the following `Intl.PluralRules` AOs to take Intl (#1026)"
+ },
+ {
+  "adate": "2025-09-11T01:15:41+02:00",
+  "author": "Aki \ud83c\udf39",
+  "date": "2025-11-18T02:04:37+05:30",
+  "hash": "840b2c99d547e6f0c2b471f5130e291089acab2b",
+  "parents": "33893b3d8ae5b84afb9d81fd18420efac2583269",
+  "subject": "Editorial: Add PrinceXML to colophon"
+ },
+ {
+  "adate": "2025-11-17T19:49:54-06:00",
+  "author": "Shane F. Carr",
+  "date": "2025-11-17T19:49:54-06:00",
+  "hash": "3b780a60841a160ed06a833b75c8e7611f1c3b85",
+  "parents": "840b2c99d547e6f0c2b471f5130e291089acab2b",
+  "subject": "Create notes-2025-11-06.md"
+ },
+ {
+  "adate": "2025-10-22T12:25:06-07:00",
+  "author": "Ben Allen",
+  "date": "2025-10-22T12:25:06-07:00",
+  "hash": "33893b3d8ae5b84afb9d81fd18420efac2583269",
+  "parents": "dd5140805e8f0805bf31f790d9cb61d0fc31506b",
+  "subject": "Normative: Add [[CompactDisplay]] slot to Intl.PluralRules (#1019)"
+ },
+ {
+  "adate": "2025-10-13T11:57:37-07:00",
+  "author": "Shane F. Carr",
+  "date": "2025-10-13T11:57:37-07:00",
+  "hash": "dd5140805e8f0805bf31f790d9cb61d0fc31506b",
+  "parents": "86ef273a50c0592a76b23337b0183ccbceba3c99",
+  "subject": "Create notes-2025-10-13.md"
+ },
+ {
+  "adate": "2025-09-11T17:24:59-05:00",
+  "author": "Shane F. Carr",
+  "date": "2025-09-11T17:24:59-05:00",
+  "hash": "86ef273a50c0592a76b23337b0183ccbceba3c99",
+  "parents": "9a3e518879e32f469abfa101789546c1e29c18fc",
+  "subject": "Create notes-2025-09-11.md"
+ },
+ {
+  "adate": "2025-09-03T11:43:54-07:00",
+  "author": "Ben Allen",
+  "date": "2025-09-03T14:43:54-04:00",
+  "hash": "9a3e518879e32f469abfa101789546c1e29c18fc",
+  "parents": "661eaaa8b7be34b79383f64b4d05ba560ce657a7",
+  "subject": "Editorial: Update language count given in overview (#1025)"
+ },
+ {
+  "adate": "2025-08-19T15:01:19-07:00",
+  "author": "Ben Allen",
+  "date": "2025-08-19T18:01:19-04:00",
+  "hash": "661eaaa8b7be34b79383f64b4d05ba560ce657a7",
+  "parents": "8d1c662fb5e969ec17b99e82716eb8b75488fd05",
+  "subject": "Editorial: Fix typo in SetNumberFormatDigitOptions (#1024)"
+ },
+ {
+  "adate": "2025-08-15T13:38:24-07:00",
+  "author": "Shane F. Carr",
+  "date": "2025-08-15T15:38:24-05:00",
+  "hash": "8d1c662fb5e969ec17b99e82716eb8b75488fd05",
+  "parents": "85dfc2519968a1ff40187cc8ac943a8c1dbe20cb",
+  "subject": "Add W3C i18n Review as a stage advancement requirement (#1021)"
+ },
+ {
+  "adate": "2025-08-14T22:54:25-05:00",
+  "author": "Shane F. Carr",
+  "date": "2025-08-14T22:54:25-05:00",
+  "hash": "85dfc2519968a1ff40187cc8ac943a8c1dbe20cb",
+  "parents": "7bbef9f4f3449ca8ae2c7deeb63712e150f5ad5a",
+  "subject": "Create notes-2025-08-14.md"
+ },
+ {
+  "adate": "2025-07-29T05:12:23+02:00",
+  "author": "Andr\u00e9 Bargull",
+  "date": "2025-07-29T05:12:23+02:00",
+  "hash": "7bbef9f4f3449ca8ae2c7deeb63712e150f5ad5a",
+  "parents": "d903ed7f9e9a75e0c554dc5391249af22863e957",
+  "subject": "Normative: Add missing name property for %IntlSegmentsPrototype%[%Symbol.iterator%] (#1015)"
+ },
+ {
+  "adate": "2025-07-17T14:41:05-07:00",
+  "author": "Shane F. Carr",
+  "date": "2025-07-17T14:41:05-07:00",
+  "hash": "d903ed7f9e9a75e0c554dc5391249af22863e957",
+  "parents": "1dfc99582a435e4bd43bd5417ed7beb18b7d695f",
+  "subject": "Create notes-2025-07-17.md"
+ },
+ {
+  "adate": "2025-07-11T21:26:32+02:00",
+  "author": "Andr\u00e9 Bargull",
+  "date": "2025-07-11T15:26:32-04:00",
+  "hash": "1dfc99582a435e4bd43bd5417ed7beb18b7d695f",
+  "parents": "f7fbe5cbc7c09551885bc270a515684435571b4c",
+  "subject": "Editorial: Use HTML lists to describe Intl constructors and prototypes (#1016)"
+ },
+ {
+  "adate": "2025-06-13T20:17:52-05:00",
+  "author": "Shane F. Carr",
+  "date": "2025-06-13T20:17:52-05:00",
+  "hash": "f7fbe5cbc7c09551885bc270a515684435571b4c",
+  "parents": "9b340830c3168e4f8cce8220ae8786287448dadf",
+  "subject": "Update notes-2025-05-08.md"
+ },
+ {
+  "adate": "2025-06-13T20:14:30-05:00",
+  "author": "Shane F. Carr",
+  "date": "2025-06-13T20:14:30-05:00",
+  "hash": "9b340830c3168e4f8cce8220ae8786287448dadf",
+  "parents": "0b083c125ee70cc9cef7ede76e459e1b73459aa1",
+  "subject": "Create notes-2025-05-08.md"
+ },
+ {
+  "adate": "2025-06-13T20:08:22-05:00",
+  "author": "Shane F. Carr",
+  "date": "2025-06-13T20:08:22-05:00",
+  "hash": "0b083c125ee70cc9cef7ede76e459e1b73459aa1",
+  "parents": "37438c45e034561a23ae1715e013d3dd37883da6",
+  "subject": "Create notes-2025-06-12.md"
+ },
+ {
+  "adate": "2025-06-12T09:18:24-07:00",
+  "author": "Ben Allen",
+  "date": "2025-06-12T18:18:24+02:00",
+  "hash": "37438c45e034561a23ae1715e013d3dd37883da6",
+  "parents": "65cb5f19aa3e75897ff2bf8d74bed6c661ccb5d8",
+  "subject": "Normative: Added note about sets of locales for web browser implementations needing to not change as a result of user behaviour (#780)"
+ },
+ {
+  "adate": "2025-05-31T12:32:31-04:00",
+  "author": "Richard Gibson",
+  "date": "2025-05-31T12:32:31-04:00",
+  "hash": "65cb5f19aa3e75897ff2bf8d74bed6c661ccb5d8",
+  "parents": "a6b1c8ed59ed5553c39472383461e172c33fdcaf",
+  "subject": "Editorial: Clarify that duplicate-variants checks are case-insensitive (#1009)"
+ },
+ {
+  "adate": "2025-05-30T20:04:46+02:00",
+  "author": "Andr\u00e9 Bargull",
+  "date": "2025-05-30T14:04:46-04:00",
+  "hash": "a6b1c8ed59ed5553c39472383461e172c33fdcaf",
+  "parents": "1f315d53e6906653dfdb01def59a47eeed63d21b",
+  "subject": "Editorial: Add Oxford comma and fix variable markup (#1001)"
+ },
+ {
+  "adate": "2025-05-30T12:42:02-04:00",
+  "author": "Richard Gibson",
+  "date": "2025-05-30T12:42:02-04:00",
+  "hash": "1f315d53e6906653dfdb01def59a47eeed63d21b",
+  "parents": "e8c995a38cfd347c247c046ffbbe46f81b4f285c",
+  "subject": "Editorial: Fix incorrect validation of `variants` for Intl.Locale construction (#1007)"
+ },
+ {
+  "adate": "2025-05-29T17:44:49-04:00",
+  "author": "Richard Gibson",
+  "date": "2025-05-29T17:44:49-04:00",
+  "hash": "e8c995a38cfd347c247c046ffbbe46f81b4f285c",
+  "parents": "a7ff53578302a0c4e4513fda9fb00bdb39695fd9",
+  "subject": "Normative: Add `variants` to Intl.Locale surface area (#960)"
+ },
+ {
+  "adate": "2025-04-03T17:57:27+02:00",
+  "author": "Ujjwal Sharma",
+  "date": "2025-05-15T18:14:08+02:00",
+  "hash": "a7ff53578302a0c4e4513fda9fb00bdb39695fd9",
+  "parents": "6caa3fb349f864f7b37a005d54a15578de5d5edc",
+  "subject": "Normative: add notation to PluralRules"
+ },
+ {
+  "adate": "2025-04-23T17:14:00+02:00",
+  "author": "Ujjwal Sharma",
+  "date": "2025-05-06T01:08:53+02:00",
+  "hash": "6caa3fb349f864f7b37a005d54a15578de5d5edc",
+  "parents": "3a3508c1a4665597b722fd7bbd228db380709ae7",
+  "subject": "Editorial: mark DefaultLocale as a fingerprinting vector"
+ },
+ {
+  "adate": "2025-04-29T03:43:49+09:00",
+  "author": "Ross Kirsling",
+  "date": "2025-04-28T14:43:49-04:00",
+  "hash": "3a3508c1a4665597b722fd7bbd228db380709ae7",
+  "parents": "aaa71cee2909a957ea4ab904bab1a0466a17bfca",
+  "subject": "Markup: Eliminate usage of <emu-normative-optional> (#999)"
+ },
+ {
+  "adate": "2025-04-07T17:35:45-04:00",
+  "author": "Timothy Flynn",
+  "date": "2025-04-08T13:26:52+02:00",
+  "hash": "aaa71cee2909a957ea4ab904bab1a0466a17bfca",
+  "parents": "45ee279c60757a930db43a65689e5ce70acb1333",
+  "subject": "Editorial: Pass %Intl.Segmenter% to its invocation of ResolveOptions"
+ },
+ {
+  "adate": "2025-04-01T17:04:26+02:00",
+  "author": "Ujjwal Sharma",
+  "date": "2025-04-04T12:02:39+02:00",
+  "hash": "45ee279c60757a930db43a65689e5ce70acb1333",
+  "parents": "347d26405d39f8361c6202ae662ab424700af37c",
+  "subject": "Editorial: clean up references to ecma262"
+ },
+ {
+  "adate": "2025-04-01T13:34:34+02:00",
+  "author": "Ujjwal Sharma",
+  "date": "2025-04-04T12:02:39+02:00",
+  "hash": "347d26405d39f8361c6202ae662ab424700af37c",
+  "parents": "257fe1ab81e90f4ea4c5a04375d0bbe15f1bdac2",
+  "subject": "Editorial: Update to ES2026 draft"
+ },
+ {
+  "adate": "2025-03-26T23:57:59-04:00",
+  "author": "Richard Gibson",
+  "date": "2025-03-26T23:57:59-04:00",
+  "hash": "e3f726036a9aec45ffc3dde2832492facdecc227",
+  "parents": "6827e6e40b45fb313472595be31352451a2d85fa bd96e2d164a1956fd0cae5f3e270c20dfe64f0e1",
+  "subject": "Editorial: Clean up NumberFormat (#983)"
+ }
+]
