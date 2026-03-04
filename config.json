@@ -3,6 +3,6 @@
  "api_url": "https://api.github.com/repos/tc39/ecma402/",
  "first_rev": "347d26405d39f8361c6202ae662ab424700af37c",
  "update_first_rev": "347d26405d39f8361c6202ae662ab424700af37c",
- "first_pr": 1,
+ "first_pr": 1000,
  "releases": []
 }
