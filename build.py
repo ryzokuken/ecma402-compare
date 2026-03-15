@@ -17,6 +17,15 @@ import urllib.request
 JSON_VERSION = '1'
 
 
+def _set_github_output(name, value):
+    output_file = os.environ.get('GITHUB_OUTPUT')
+    if output_file:
+        with open(output_file, 'a') as f:
+            f.write(f'{name}={value}\n')
+    else:
+        print(f'{name}={value}')
+
+
 def test_if_non_bmp_supported_by_lxml():
     import lxml.html
     import lxml.etree
@@ -1112,8 +1121,9 @@ class PRs:
 
     @classmethod
     def __set_output(cls):
-        print('##[set-output name=updated_pr_list;]{}'.format(
-            ','.join(map(str, cls.UPDATED_PRS))))
+        _set_github_output(
+            'updated_pr_list',
+            ','.join(map(str, cls.UPDATED_PRS)))
 
 
 class JSONUpdater:
@@ -1172,15 +1182,15 @@ class Bootstrap:
         has_new = False
 
         if CacheChecker.has_new_rev():
-            print('##[set-output name=update_revs;]Yes')
+            _set_github_output('update_revs', 'Yes')
             has_new = True
 
         if CacheChecker.has_new_pr():
-            print('##[set-output name=update_prs;]Yes')
+            _set_github_output('update_prs', 'Yes')
             has_new = True
 
         if has_new:
-            print('##[set-output name=update;]Yes')
+            _set_github_output('update', 'Yes')
 
 
 class GC:
