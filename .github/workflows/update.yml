@@ -1,229 +1,102 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
 name: Update revisions and PRs
 
 on:
   schedule:
-    # Every hour
-    - cron:  '0 * * * *'
-  push:
-    branch: master
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      max_revisions:
+        description: 'Max revisions to process'
+        default: '10'
+        type: string
+      max_prs:
+        description: 'Max PRs to process'
+        default: '10'
+        type: string
+
+concurrency:
+  group: update-history
+  cancel-in-progress: false
 
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
-    concurrency: build
 
     steps:
-    - name: Setup Python
-      uses: actions/setup-python@v1
-      with:
-        python-version: "3.x"
+      - name: Checkout gh-pages
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
+        with:
+          ref: gh-pages
+          persist-credentials: false
+          fetch-depth: 1
 
-    # ==== Bootstrap for history update ====
+      - name: Setup Python
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405  # v6.2.0
+        with:
+          python-version: '3.13'
 
-    - name: Get gh-pages hash
-      run: |
-        curl -sL \
-        --url https://api.github.com/repos/${{ github.repository }}/branches/gh-pages \
-        --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
-        --header 'content-type: application/json' | \
-        python -c 'import sys; import json; print("##[set-output name=sha;]{}".format(json.loads(sys.stdin.read())["commit"]["sha"]))'
-      id: pages_hash
-    - name: Download gh-pages Bootstrap
-      run: |
-        curl -sLO \
-        --url https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/Makefile \
-        --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}'
-        curl -sLO \
-        --url https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/build.py \
-        --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}'
-        curl -sLO \
-        --url https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/config.json \
-        --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}'
-        curl -sLO \
-        --url https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/broken_revs.json \
-        --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}'
-        curl -sLO \
-        --url https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/history/revs.json \
-        --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}'
-        curl -sLO \
-        --url https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/history/prs.json \
-        --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}'
-        curl -sLO \
-        --url https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/requirements.txt \
-        --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}'
-        mkdir -p history
-        mv revs.json history
-        mv prs.json history
-    - name: Setup virtualenv
-      run: make py-venv-bootstrap
-    - name: Run gh-pages Bootstrap
-      run: make bootstrap
-      env:
-        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-      id: pages_bootstrap
-    - name: Remove gh-pages Bootstrap
-      run: |
-        rm Makefile
-        rm build.py
-        rm config.json
-        rm broken_revs.json
-        rm -rf history
-        rm requirements.txt
+      - name: Setup Node
+        uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f  # v6.3.0
+        with:
+          node-version: '22'
 
-    # ==== Bootstrap for posting PR status ====
+      - name: Cache npm
+        uses: actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306  # v5.0.3
+        with:
+          path: ~/.npm
+          key: npm-spec-${{ runner.os }}
+          restore-keys: npm-spec-
 
-    #- name: Get pr-status hash
-    #  run: |
-    #    curl -sL \
-    #    --url https://api.github.com/repos/${{ github.repository }}/branches/pr-status \
-    #    --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
-    #    --header 'content-type: application/json' | \
-    #    python -c 'import sys; import json; print("##[set-output name=sha;]{}".format(json.loads(sys.stdin.read())["commit"]["sha"]))'
-    #  id: status_hash
-    #- name: Download pr-status Bootstrap
-    #  run: |
-    #    curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.status_hash.outputs.sha}}/Makefile
-    #    curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.status_hash.outputs.sha}}/build.py
-    #    curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.status_hash.outputs.sha}}/config.json
-    #    curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.status_hash.outputs.sha}}/pr-status.json
-    #- name: Run pr-status Bootstrap
-    #  run: make bootstrap
-    #  id: status_bootstrap
-    #- name: Remove pr-status Bootstrap
-    #  run: |
-    #    rm Makefile
-    #    rm build.py
-    #    rm config.json
-    #    rm pr-status.json
+      - name: Install Python dependencies
+        run: |
+          python -m venv venv
+          venv/bin/pip install --upgrade pip
+          venv/bin/pip install -r requirements.txt
 
-    # ==== Checkout if history or PR status needs to be updated ====
+      - name: Check for updates
+        id: check
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: venv/bin/python build.py bootstrap
 
-    - name: Checkout
-      #if: steps.pages_bootstrap.outputs.update == 'Yes' || steps.status_bootstrap.outputs.update == 'Yes'
-      if: steps.pages_bootstrap.outputs.update == 'Yes'
-      uses: actions/checkout@v1
-      with:
-        ref: gh-pages
-    - name: Set Git Profile
-      #if: steps.pages_bootstrap.outputs.update == 'Yes' || steps.status_bootstrap.outputs.update == 'Yes'
-      if: steps.pages_bootstrap.outputs.update == 'Yes'
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-    - name: Install lxml dependencies
-      if: steps.pages_bootstrap.outputs.update == 'Yes'
-      run: sudo apt-get install libxml2-dev libxslt1-dev
-    - name: Setup virtualenv
-      #if: steps.pages_bootstrap.outputs.update == 'Yes' || steps.status_bootstrap.outputs.update == 'Yes'
-      if: steps.pages_bootstrap.outputs.update == 'Yes'
-      run: make py-venv
+      - name: Set git identity
+        if: steps.check.outputs.update == 'Yes'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
 
-    # ==== Post PR status for previous update ====
+      - name: Install lxml dependencies
+        if: steps.check.outputs.update == 'Yes'
+        run: sudo apt-get install -y libxml2-dev libxslt1-dev
 
-    #- name: Checkout pr-status
-    #  if: steps.status_bootstrap.outputs.update == 'Yes'
-    #  run: |
-    #    git checkout pr-status
-    #### disable for now
-    #- name: Post PR status
-    #  if: steps.status_bootstrap.outputs.update == 'Yes'
-    #  run: make post
-    #  env:
-    #    POST_TOKEN: ${{secrets.POST_TOKEN}}
-    #- name: Commit PR status JSON
-    #  if: steps.status_bootstrap.outputs.update == 'Yes'
-    #  run: |
-    #    git add pr-status.json
-    #    set +e
-    #    git diff --cached --quiet
-    #    echo "##[set-output name=modified;]$?"
-    #    set -e
-    #  id: status_post
-    #- name: Commit PR status JSON
-    #  if: steps.status_post.outputs.modified == '1'
-    #  run: |
-    #    git commit -m "Post PR status"
-    #- name: Push PR status JSON changes
-    #  if: steps.status_post.outputs.modified == '1'
-    #  uses: ad-m/github-push-action@master
-    #  with:
-    #    github_token: ${{ secrets.GITHUB_TOKEN }}
-    #    branch: pr-status
-    #    force: false
+      - name: Clone spec repo
+        if: steps.check.outputs.update == 'Yes'
+        run: make clone
 
-    #- name: Checkout gh-pages
-    #  if: steps.status_bootstrap.outputs.update == 'Yes'
-    #  run: |
-    #    git checkout gh-pages
+      - name: Update revisions
+        if: steps.check.outputs.update_revs == 'Yes'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: venv/bin/python build.py rev -c ${{ inputs.max_revisions || '10' }} all
 
-    # ==== Update history ====
+      - name: Update PRs
+        if: steps.check.outputs.update_prs == 'Yes'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: venv/bin/python build.py pr -c ${{ inputs.max_prs || '10' }} all
 
-    - name: Clone ecma262
-      if: steps.pages_bootstrap.outputs.update == 'Yes'
-      run: make clone
-    - name: Update revisions
-      if: steps.pages_bootstrap.outputs.update_revs == 'Yes'
-      env:
-        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-      run: make update5
-    - name: Update PRs
-      if: steps.pages_bootstrap.outputs.update_prs == 'Yes'
-      env:
-        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-      run: make pr5
-      id: prs
-    - name: Add history
-      if: steps.pages_bootstrap.outputs.update == 'Yes'
-      run: |
-        git add history
-        git add broken_revs.json
-        set +e
-        git diff --cached --quiet
-        echo "##[set-output name=modified;]$?"
-        set -e
-      id: pages_add
-    - name: Commit history
-      if: steps.pages_add.outputs.modified == '1'
-      run: |
-        git commit -m "update history"
-    - name: Push history changes
-      if: steps.pages_add.outputs.modified == '1'
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: gh-pages
-        force: false
-
-    # ==== Store PR status data for the next run ====
-
-    - name: Checkout pr-status
-      if: steps.prs.outputs.updated_pr_list != ''
-      run: |
-        git checkout pr-status
-    - name: Store PR status data
-      if: steps.prs.outputs.updated_pr_list != ''
-      run: make store
-      env:
-        UPDATED_PR_LIST: ${{ steps.prs.outputs.updated_pr_list }}
-        POST_TOKEN: ${{secrets.POST_TOKEN}}
-    - name: Add PR status JSON
-      if: steps.prs.outputs.updated_pr_list != ''
-      run: |
-        git add pr-status.json
-        set +e
-        git diff --cached --quiet
-        echo "##[set-output name=modified;]$?"
-        set -e
-      id: status_add
-    - name: Commit PR status JSON
-      if: steps.status_add.outputs.modified == '1'
-      run: |
-        git commit -m "Store PR status"
-    - name: Push PR status JSON changes
-      if: steps.status_add.outputs.modified == '1'
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: pr-status
-        force: false
-
+      - name: Commit and push
+        if: steps.check.outputs.update == 'Yes'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git add history broken_revs.json
+          if ! git diff --cached --quiet; then
+            git commit -m "update history"
+            git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
+            git push origin gh-pages
+          fi
