@@ -2,11 +2,83 @@
  {
   "base": "6f9c75e3e724b077a54a0baae9ca0955c260d430",
   "created_at": "2026-02-17T00:39:30Z",
-  "head": "403dca8b2c6072eb7d32c92ff6865cbd951674d1",
+  "head": "2bd1d9c0b30c90c056ced202dd4954e5d0b0533c",
   "login": "ptomato",
   "number": 1044,
   "ref": "temporal-stage-4",
   "revs": [
+   {
+    "adate": "2026-03-12T15:02:05-04:00",
+    "author": "Philip Chimento",
+    "date": "2026-03-12T15:04:07-04:00",
+    "hash": "2bd1d9c0b30c90c056ced202dd4954e5d0b0533c",
+    "parents": "ffce532d3b416ad5f0638f7ae1e726136a6ecbc5",
+    "subject": "(fixup) Various phrasing adjustments"
+   },
+   {
+    "adate": "2026-03-12T14:43:17-04:00",
+    "author": "Philip Chimento",
+    "date": "2026-03-12T15:04:07-04:00",
+    "hash": "ffce532d3b416ad5f0638f7ae1e726136a6ecbc5",
+    "parents": "cf8bee79d20e5a7d2e4acdec7b7f85e85615d313",
+    "subject": "(fixup) Inline Value Format Record AOs"
+   },
+   {
+    "adate": "2026-03-12T14:23:03-04:00",
+    "author": "Philip Chimento",
+    "date": "2026-03-12T14:23:03-04:00",
+    "hash": "cf8bee79d20e5a7d2e4acdec7b7f85e85615d313",
+    "parents": "ac5929d9e7b166c4b27dc421d4f33420229f697f",
+    "subject": "(fixup) Return \"the\" Value Format Record"
+   },
+   {
+    "adate": "2026-03-12T12:55:57-04:00",
+    "author": "Philip Chimento",
+    "date": "2026-03-12T12:56:13-04:00",
+    "hash": "ac5929d9e7b166c4b27dc421d4f33420229f697f",
+    "parents": "19d63188fc9ffbcba717e2d8a8c8927710172274",
+    "subject": "(fixup) Improvements to toLocaleStringTimeZone in CreateDateTimeFormat"
+   },
+   {
+    "adate": "2026-03-12T11:30:03-04:00",
+    "author": "Philip Chimento",
+    "date": "2026-03-12T11:30:03-04:00",
+    "hash": "19d63188fc9ffbcba717e2d8a8c8927710172274",
+    "parents": "372edafd0ae64a802fe30ce9c10c848b06c01e18",
+    "subject": "(fixup) Make explicit algorithm steps for AvailableCalendars"
+   },
+   {
+    "adate": "2026-03-12T11:21:37-04:00",
+    "author": "Philip Chimento",
+    "date": "2026-03-12T11:21:52-04:00",
+    "hash": "372edafd0ae64a802fe30ce9c10c848b06c01e18",
+    "parents": "2fff84b63d5b13a7da7dd6423d88e5cbc51672e5",
+    "subject": "(fixup) Use curly quotes for table column names"
+   },
+   {
+    "adate": "2026-03-10T08:32:47-07:00",
+    "author": "Philip Chimento",
+    "date": "2026-03-10T08:32:47-07:00",
+    "hash": "2fff84b63d5b13a7da7dd6423d88e5cbc51672e5",
+    "parents": "4db49a41a173d260cf34f90192658c00c531951f",
+    "subject": "(fixup) Clarify early throw in NonISOMonthDayToISOReferenceDate"
+   },
+   {
+    "adate": "2026-03-09T20:27:25-07:00",
+    "author": "Philip Chimento",
+    "date": "2026-03-09T20:27:25-07:00",
+    "hash": "4db49a41a173d260cf34f90192658c00c531951f",
+    "parents": "9e1b06726809e4d1ed51cddbd80c9326e3486f89",
+    "subject": "(fixup) Fix cut-off sentence"
+   },
+   {
+    "adate": "2026-03-05T15:53:14-08:00",
+    "author": "Philip Chimento",
+    "date": "2026-03-05T17:21:22-08:00",
+    "hash": "9e1b06726809e4d1ed51cddbd80c9326e3486f89",
+    "parents": "403dca8b2c6072eb7d32c92ff6865cbd951674d1",
+    "subject": "(fixup) Assertions in NonISOResolveFields/NonISOMonthDay"
+   },
    {
     "adate": "2026-02-26T11:48:58-08:00",
     "author": "Philip Chimento",
@@ -65,7 +137,7 @@
    }
   ],
   "title": "Normative: Temporal and Intl Era/Month Code stage 4",
-  "updated_at": "2026-03-04T21:03:41Z"
+  "updated_at": "2026-03-13T14:38:53Z"
  },
  {
   "base": "7bbef9f4f3449ca8ae2c7deeb63712e150f5ad5a",
@@ -96,75 +168,31 @@
   "updated_at": "2026-02-19T23:36:29Z"
  },
  {
-  "base": "4a2dae4c04e7fdc9e9de5946fbcdb31b073e4040",
-  "created_at": "2025-06-13T10:08:02Z",
-  "head": "9a795747f63f5567791e7e596b1f46f87152dbb2",
-  "login": "gesa",
-  "number": 1012,
-  "ref": "es2025",
-  "revs": [
-   {
-    "adate": "2025-06-12T15:14:38+02:00",
-    "author": "Aki \ud83c\udf39",
-    "date": "2025-06-16T13:22:14+02:00",
-    "hash": "9a795747f63f5567791e7e596b1f46f87152dbb2",
-    "parents": "4a2dae4c04e7fdc9e9de5946fbcdb31b073e4040",
-    "subject": "Edits to ready this edition for print(able) publication"
-   },
-   {
-    "adate": "2025-04-01T14:05:20+02:00",
-    "author": "Ujjwal Sharma",
-    "date": "2025-04-01T14:05:20+02:00",
-    "hash": "4a2dae4c04e7fdc9e9de5946fbcdb31b073e4040",
-    "parents": "e3f726036a9aec45ffc3dde2832492facdecc227",
-    "subject": "Meta: Update metadata for ES2025"
-   }
-  ],
-  "title": "Optional merge: Edits to ready this edition for print(able) publication",
-  "updated_at": "2025-06-16T13:19:55Z"
- },
- {
-  "base": "f7fbe5cbc7c09551885bc270a515684435571b4c",
+  "base": "6f9c75e3e724b077a54a0baae9ca0955c260d430",
   "created_at": "2025-06-12T11:45:25Z",
-  "head": "f6a1e50059d4dcd4bf57101dcaddda3ab1da66fc",
+  "head": "1fd0deb78e97ce98bf349a47b9a323bacbc5de54",
   "login": "gesa",
   "number": 1011,
   "ref": "es2025-edits",
   "revs": [
    {
-    "adate": "2025-06-16T13:01:14+02:00",
+    "adate": "2026-03-14T17:30:17Z",
     "author": "Aki \ud83c\udf39",
-    "date": "2025-06-16T13:01:14+02:00",
-    "hash": "f6a1e50059d4dcd4bf57101dcaddda3ab1da66fc",
-    "parents": "53306882d4416c2df5ed552a8f0f92253fa49381",
-    "subject": "Specify prince for books, delete redundant styles"
-   },
-   {
-    "adate": "2025-06-13T11:53:55+02:00",
-    "author": "Aki \ud83c\udf39",
-    "date": "2025-06-13T11:59:39+02:00",
-    "hash": "53306882d4416c2df5ed552a8f0f92253fa49381",
-    "parents": "9e9b75b306bbe6ab2f3f93418ba09fa7a1a06d15",
-    "subject": "Add explicit width for Tables 31 & 32"
-   },
-   {
-    "adate": "2025-06-13T11:04:14+02:00",
-    "author": "Aki \ud83c\udf39",
-    "date": "2025-06-13T11:07:07+02:00",
-    "hash": "9e9b75b306bbe6ab2f3f93418ba09fa7a1a06d15",
-    "parents": "5d0ced2a9c0d6c5aee54d49b6d90e3d8021e3c5a",
-    "subject": "Suggested changes from review"
+    "date": "2026-03-14T17:30:17Z",
+    "hash": "1fd0deb78e97ce98bf349a47b9a323bacbc5de54",
+    "parents": "19eabe23dea11dbb26d254671b065f482add18dd",
+    "subject": "Align colophon with other Ecma documents"
    },
    {
     "adate": "2025-06-12T13:40:06+02:00",
     "author": "Aki \ud83c\udf39",
-    "date": "2025-06-12T14:33:39+02:00",
-    "hash": "5d0ced2a9c0d6c5aee54d49b6d90e3d8021e3c5a",
-    "parents": "65cb5f19aa3e75897ff2bf8d74bed6c661ccb5d8",
-    "subject": "Fixes from publication process meaningful from year-to-year"
+    "date": "2026-03-14T17:12:38Z",
+    "hash": "19eabe23dea11dbb26d254671b065f482add18dd",
+    "parents": "6f9c75e3e724b077a54a0baae9ca0955c260d430",
+    "subject": "Render consistnt with Ecma house style"
    }
   ],
   "title": "Markup: Fixes from publication process meaningful from year-to-year",
-  "updated_at": "2025-06-16T11:33:35Z"
+  "updated_at": "2026-03-14T20:59:23Z"
  }
 ]

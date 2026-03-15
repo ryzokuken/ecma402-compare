@@ -318,13 +318,5 @@
   "hash": "347d26405d39f8361c6202ae662ab424700af37c",
   "parents": "257fe1ab81e90f4ea4c5a04375d0bbe15f1bdac2",
   "subject": "Editorial: Update to ES2026 draft"
- },
- {
-  "adate": "2025-03-26T23:57:59-04:00",
-  "author": "Richard Gibson",
-  "date": "2025-03-26T23:57:59-04:00",
-  "hash": "e3f726036a9aec45ffc3dde2832492facdecc227",
-  "parents": "6827e6e40b45fb313472595be31352451a2d85fa bd96e2d164a1956fd0cae5f3e270c20dfe64f0e1",
-  "subject": "Editorial: Clean up NumberFormat (#983)"
  }
 ]
