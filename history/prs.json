@@ -1,6 +1,26 @@
 [
  {
   "base": "6f9c75e3e724b077a54a0baae9ca0955c260d430",
+  "created_at": "2026-03-16T23:07:28Z",
+  "head": "9c7a1dcf60e45ff3b9749f6dbee3160119c6c165",
+  "login": "gibson042",
+  "number": 1048,
+  "ref": "gh-1046-well-formed-language-tag",
+  "revs": [
+   {
+    "adate": "2026-03-16T19:00:16-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-03-16T19:00:16-04:00",
+    "hash": "9c7a1dcf60e45ff3b9749f6dbee3160119c6c165",
+    "parents": "6f9c75e3e724b077a54a0baae9ca0955c260d430",
+    "subject": "Editorial: Clarify that \"well-formed language tag\" does not imply `unicode_bcp47_locale_id` well-formedness"
+   }
+  ],
+  "title": "Editorial: Clarify that \"well-formed language tag\" does not imply `unicode_bcp47_locale_id` well-formedness",
+  "updated_at": "2026-03-16T23:07:28Z"
+ },
+ {
+  "base": "6f9c75e3e724b077a54a0baae9ca0955c260d430",
   "created_at": "2026-02-17T00:39:30Z",
   "head": "2bd1d9c0b30c90c056ced202dd4954e5d0b0533c",
   "login": "ptomato",
