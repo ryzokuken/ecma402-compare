@@ -1,6 +1,90 @@
 [
  {
   "base": "bfe565d508f4b35c4eb045bd47c11214caeb63d9",
+  "created_at": "2026-04-02T17:39:39Z",
+  "head": "574c11d05a5632391579d2dbc5e7ac47bb6ef6ad",
+  "login": "gibson042",
+  "number": 1050,
+  "ref": "2026-04-numberformat-aliases",
+  "revs": [
+   {
+    "adate": "2026-04-02T13:35:00-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-04-02T13:35:00-04:00",
+    "hash": "574c11d05a5632391579d2dbc5e7ac47bb6ef6ad",
+    "parents": "6f0df04496184bea7a7c81cd4b34185a261e782e",
+    "subject": "Editorial: Narrow the type of SetNumberFormatDigitOptions parameter _intlObj_"
+   },
+   {
+    "adate": "2026-04-02T13:29:55-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-04-02T13:30:30-04:00",
+    "hash": "6f0df04496184bea7a7c81cd4b34185a261e782e",
+    "parents": "a2a47e1a2967a4ac2e2138f97e11711cc84bb71b",
+    "subject": "Editorial: Refactor SetNumberFormatDigitOptions steps to eliminate needSD/needFD reassignment"
+   },
+   {
+    "adate": "2026-04-02T13:15:16-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-04-02T13:15:16-04:00",
+    "hash": "a2a47e1a2967a4ac2e2138f97e11711cc84bb71b",
+    "parents": "36ecc110a297beb06d2a0bf3e2ffd98b0c49a732",
+    "subject": "Editorial: Reword a note in SetNumberFormatDigitOptions"
+   },
+   {
+    "adate": "2026-04-02T13:11:42-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-04-02T13:11:42-04:00",
+    "hash": "36ecc110a297beb06d2a0bf3e2ffd98b0c49a732",
+    "parents": "59e7bd98d45539bba60ca85aa949b1c01b418ac2",
+    "subject": "Editorial: For consistency, reintroduce an alias for SetNumberFormatDigitOptions reading `minimumIntegerDigits`"
+   },
+   {
+    "adate": "2026-04-02T13:02:54-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-04-02T13:02:54-04:00",
+    "hash": "59e7bd98d45539bba60ca85aa949b1c01b418ac2",
+    "parents": "85da4d52f32e580afec1698718288d20dc9b48b2",
+    "subject": "Editorial: In NumberFormat alias names, abbreviate \"FractionDigits\" as \"FD\" and \"SignificantDigits\" as \"SD\""
+   },
+   {
+    "adate": "2026-04-02T12:52:23-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-04-02T12:52:23-04:00",
+    "hash": "85da4d52f32e580afec1698718288d20dc9b48b2",
+    "parents": "075ad281b7e471ccd70d0e2a21b1d72f7f7cea86",
+    "subject": "Editorial: In NumberFormat alias names, use \"min\" rather than \"mn\" and \"max\" rather than \"mx\""
+   },
+   {
+    "adate": "2026-04-02T12:41:05-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-04-02T12:41:05-04:00",
+    "hash": "075ad281b7e471ccd70d0e2a21b1d72f7f7cea86",
+    "parents": "9ab0304147440c4700ff08e4f1f2b73809e0a349",
+    "subject": "Editorial: Remove an unnecessary alias in SetNumberFormatDigitOptions"
+   },
+   {
+    "adate": "2026-04-02T12:39:30-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-04-02T12:39:30-04:00",
+    "hash": "9ab0304147440c4700ff08e4f1f2b73809e0a349",
+    "parents": "49ddcc5b62fa2a41cbaed27ea861c20f0d80139d",
+    "subject": "Editorial: Reduce alias overloading in SetNumberFormatDigitOptions"
+   },
+   {
+    "adate": "2026-04-02T12:37:15-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-04-02T12:37:15-04:00",
+    "hash": "49ddcc5b62fa2a41cbaed27ea861c20f0d80139d",
+    "parents": "bfe565d508f4b35c4eb045bd47c11214caeb63d9",
+    "subject": "Editorial: Reduce nesting depth in the Intl.NumberFormat constructor"
+   }
+  ],
+  "title": "Editorial: Refactor SetNumberFormatDigitOptions for comprehensibility",
+  "updated_at": "2026-04-02T17:39:39Z"
+ },
+ {
+  "base": "bfe565d508f4b35c4eb045bd47c11214caeb63d9",
   "created_at": "2026-04-01T14:52:42Z",
   "head": "2c0715266eaf423ae6cab640a8b21d192a08d9b1",
   "login": "gibson042",
