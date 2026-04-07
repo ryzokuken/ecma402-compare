@@ -1,5 +1,13 @@
 [
  {
+  "adate": "2026-04-01T10:51:23-04:00",
+  "author": "Richard Gibson",
+  "date": "2026-04-07T12:53:50+02:00",
+  "hash": "4781b0ddf1b32f5ba86a0e99f2c602cf376e009d",
+  "parents": "bfe565d508f4b35c4eb045bd47c11214caeb63d9",
+  "subject": "Meta: Update metadata for ES2027"
+ },
+ {
   "adate": "2026-03-23T22:38:09-07:00",
   "author": "Shane F. Carr",
   "date": "2026-03-23T22:38:09-07:00",
