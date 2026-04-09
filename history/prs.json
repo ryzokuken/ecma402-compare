@@ -1,5 +1,25 @@
 [
  {
+  "base": "4781b0ddf1b32f5ba86a0e99f2c602cf376e009d",
+  "created_at": "2026-04-09T09:46:55Z",
+  "head": "4c469d0301dc333dcdd6e73177e08dd11a223f86",
+  "login": "anba",
+  "number": 1051,
+  "ref": "weekinfo-region",
+  "revs": [
+   {
+    "adate": "2026-04-09T11:44:35+02:00",
+    "author": "Andr\u00e9 Bargull",
+    "date": "2026-04-09T11:44:35+02:00",
+    "hash": "4c469d0301dc333dcdd6e73177e08dd11a223f86",
+    "parents": "4781b0ddf1b32f5ba86a0e99f2c602cf376e009d",
+    "subject": "Normative: Call RegionPreference in WeekInfoOfLocale"
+   }
+  ],
+  "title": "Normative: Call RegionPreference in WeekInfoOfLocale",
+  "updated_at": "2026-04-09T09:47:01Z"
+ },
+ {
   "base": "bfe565d508f4b35c4eb045bd47c11214caeb63d9",
   "created_at": "2026-04-02T17:39:39Z",
   "head": "574c11d05a5632391579d2dbc5e7ac47bb6ef6ad",
@@ -82,26 +102,6 @@
   ],
   "title": "Editorial: Refactor SetNumberFormatDigitOptions for comprehensibility",
   "updated_at": "2026-04-02T17:39:39Z"
- },
- {
-  "base": "bfe565d508f4b35c4eb045bd47c11214caeb63d9",
-  "created_at": "2026-04-01T14:52:42Z",
-  "head": "2c0715266eaf423ae6cab640a8b21d192a08d9b1",
-  "login": "gibson042",
-  "number": 1049,
-  "ref": "2026-04-bump-draft-version",
-  "revs": [
-   {
-    "adate": "2026-04-01T10:51:23-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-04-01T10:51:23-04:00",
-    "hash": "2c0715266eaf423ae6cab640a8b21d192a08d9b1",
-    "parents": "bfe565d508f4b35c4eb045bd47c11214caeb63d9",
-    "subject": "Meta: Update metadata for ES2027"
-   }
-  ],
-  "title": "Meta: Update metadata for ES2027",
-  "updated_at": "2026-04-01T14:52:42Z"
  },
  {
   "base": "6f9c75e3e724b077a54a0baae9ca0955c260d430",
