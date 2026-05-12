@@ -1,5 +1,25 @@
 [
  {
+  "base": "b3c5c251de40a7f051eb4be3be9491a2d7cfdf5a",
+  "created_at": "2026-05-12T18:03:02Z",
+  "head": "d772dfb859f64e436a76ead56888290d03499987",
+  "login": "bakkot",
+  "number": 1065,
+  "ref": "patch-1",
+  "revs": [
+   {
+    "adate": "2026-05-12T11:02:25-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-05-12T11:02:25-07:00",
+    "hash": "d772dfb859f64e436a76ead56888290d03499987",
+    "parents": "b3c5c251de40a7f051eb4be3be9491a2d7cfdf5a",
+    "subject": "switch to trusted publishing"
+   }
+  ],
+  "title": "switch to trusted publishing",
+  "updated_at": "2026-05-12T18:03:02Z"
+ },
+ {
   "base": "3d4c558180f643d7dea75f011a6355fb285f377e",
   "created_at": "2026-05-11T04:11:34Z",
   "head": "de688c16c581d557b0db3d04295da822f617fafc",
@@ -18,26 +38,6 @@
   ],
   "title": "Editorial: Define {Collator,DateTimeFormat,NumberFormat} bound functions using Abstract Closures",
   "updated_at": "2026-05-11T04:11:34Z"
- },
- {
-  "base": "3d4c558180f643d7dea75f011a6355fb285f377e",
-  "created_at": "2026-05-11T03:17:48Z",
-  "head": "57bfeac75e49a949e6692bf715a4ab18d37eed61",
-  "login": "gibson042",
-  "number": 1062,
-  "ref": "2026-05-simplify-iswellformedunitidentifier",
-  "revs": [
-   {
-    "adate": "2026-05-10T23:17:12-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-05-10T23:17:12-04:00",
-    "hash": "57bfeac75e49a949e6692bf715a4ab18d37eed61",
-    "parents": "3d4c558180f643d7dea75f011a6355fb285f377e",
-    "subject": "Editorial: Simplify IsWellFormedUnitIdentifier"
-   }
-  ],
-  "title": "Editorial: Simplify IsWellFormedUnitIdentifier",
-  "updated_at": "2026-05-11T08:24:24Z"
  },
  {
   "base": "4781b0ddf1b32f5ba86a0e99f2c602cf376e009d",
