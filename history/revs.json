@@ -1,5 +1,21 @@
 [
  {
+  "adate": "2026-05-12T12:57:04-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2026-05-12T15:57:04-04:00",
+  "hash": "c2f134d0a6aafb246dd47e4bcade175430fc56f9",
+  "parents": "186e96bc02b51c71fc9f919751af32da42948f52",
+  "subject": "Meta: add repository information to package.json (#1066)"
+ },
+ {
+  "adate": "2026-05-12T12:45:37-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2026-05-12T15:45:37-04:00",
+  "hash": "186e96bc02b51c71fc9f919751af32da42948f52",
+  "parents": "b3c5c251de40a7f051eb4be3be9491a2d7cfdf5a",
+  "subject": "Meta: Switch to trusted publishing (#1065)"
+ },
+ {
   "adate": "2026-05-11T19:08:48-04:00",
   "author": "Richard Gibson",
   "date": "2026-05-11T19:08:48-04:00",
