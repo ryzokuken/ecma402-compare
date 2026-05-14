@@ -2,7 +2,7 @@
  {
   "base": "74825f7449050ee2fe22bbcae2aeb34292b00f84",
   "created_at": "2026-05-13T22:33:19Z",
-  "head": "9f6c8e6237892b46649d69e97831d4117d94d79e",
+  "head": "45267f6de9076d91848cd348c3086c2aef0863ba",
   "login": "ptomato",
   "number": 1067,
   "ref": "1054-calendars-of-locale",
@@ -10,14 +10,14 @@
    {
     "adate": "2026-05-13T15:32:09-07:00",
     "author": "Philip Chimento",
-    "date": "2026-05-13T15:32:09-07:00",
-    "hash": "9f6c8e6237892b46649d69e97831d4117d94d79e",
+    "date": "2026-05-14T11:22:47-07:00",
+    "hash": "45267f6de9076d91848cd348c3086c2aef0863ba",
     "parents": "74825f7449050ee2fe22bbcae2aeb34292b00f84",
     "subject": "Return only available and canonical calendars in Locale.p.getCalendars"
    }
   ],
   "title": "Return only available and canonical calendars in Locale.p.getCalendars",
-  "updated_at": "2026-05-13T22:33:19Z"
+  "updated_at": "2026-05-14T18:23:27Z"
  },
  {
   "base": "3d4c558180f643d7dea75f011a6355fb285f377e",
