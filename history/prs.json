@@ -1,23 +1,23 @@
 [
  {
-  "base": "b3c5c251de40a7f051eb4be3be9491a2d7cfdf5a",
-  "created_at": "2026-05-12T18:03:02Z",
-  "head": "d772dfb859f64e436a76ead56888290d03499987",
-  "login": "bakkot",
-  "number": 1065,
-  "ref": "patch-1",
+  "base": "74825f7449050ee2fe22bbcae2aeb34292b00f84",
+  "created_at": "2026-05-13T22:33:19Z",
+  "head": "9f6c8e6237892b46649d69e97831d4117d94d79e",
+  "login": "ptomato",
+  "number": 1067,
+  "ref": "1054-calendars-of-locale",
   "revs": [
    {
-    "adate": "2026-05-12T11:02:25-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2026-05-12T11:02:25-07:00",
-    "hash": "d772dfb859f64e436a76ead56888290d03499987",
-    "parents": "b3c5c251de40a7f051eb4be3be9491a2d7cfdf5a",
-    "subject": "switch to trusted publishing"
+    "adate": "2026-05-13T15:32:09-07:00",
+    "author": "Philip Chimento",
+    "date": "2026-05-13T15:32:09-07:00",
+    "hash": "9f6c8e6237892b46649d69e97831d4117d94d79e",
+    "parents": "74825f7449050ee2fe22bbcae2aeb34292b00f84",
+    "subject": "Return only available and canonical calendars in Locale.p.getCalendars"
    }
   ],
-  "title": "switch to trusted publishing",
-  "updated_at": "2026-05-12T18:03:02Z"
+  "title": "Return only available and canonical calendars in Locale.p.getCalendars",
+  "updated_at": "2026-05-13T22:33:19Z"
  },
  {
   "base": "3d4c558180f643d7dea75f011a6355fb285f377e",
@@ -58,26 +58,6 @@
   ],
   "title": "Normative: Align RegionPreference and CanonicalUnicodeSubdivision with UTS 35",
   "updated_at": "2026-04-15T13:18:38Z"
- },
- {
-  "base": "4781b0ddf1b32f5ba86a0e99f2c602cf376e009d",
-  "created_at": "2026-04-15T11:56:49Z",
-  "head": "5ab9db667278d0d3af6e42c13dca26281c251134",
-  "login": "anba",
-  "number": 1057,
-  "ref": "weekinfo-firstday-undef",
-  "revs": [
-   {
-    "adate": "2026-04-15T13:53:04+02:00",
-    "author": "Andr\u00e9 Bargull",
-    "date": "2026-04-15T13:53:04+02:00",
-    "hash": "5ab9db667278d0d3af6e42c13dca26281c251134",
-    "parents": "4781b0ddf1b32f5ba86a0e99f2c602cf376e009d",
-    "subject": "Editorial: Check for undefined [[FirstDayOfWeek]] field"
-   }
-  ],
-  "title": "Editorial: Check for undefined [[FirstDayOfWeek]] field",
-  "updated_at": "2026-04-15T11:56:49Z"
  },
  {
   "base": "4781b0ddf1b32f5ba86a0e99f2c602cf376e009d",
