@@ -1,5 +1,13 @@
 [
  {
+  "adate": "2026-05-20T10:36:46-07:00",
+  "author": "Philip Chimento",
+  "date": "2026-05-20T13:36:46-04:00",
+  "hash": "a48c0ab83cf6a2d0af295bc268c86cbbbeb924b7",
+  "parents": "d170e944a95ec7f11115c3a6efbfba4b35596abf",
+  "subject": "Editorial: Clarify accepted values for [[CompactDisplay]] slots (#1069)"
+ },
+ {
   "adate": "2026-05-19T12:05:03+02:00",
   "author": "Shane F. Carr",
   "date": "2026-05-19T12:05:03+02:00",
