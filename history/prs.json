@@ -1,23 +1,23 @@
 [
  {
-  "base": "04e840f6f29f54e39af676d70d9a7ce675d32498",
-  "created_at": "2026-05-18T19:20:04Z",
-  "head": "9e1f445c6b4a3ab2e05ccea0c9f61dc2fbcd9984",
-  "login": "ptomato",
-  "number": 1069,
-  "ref": "1031-compactdisplay-slot",
+  "base": "a48c0ab83cf6a2d0af295bc268c86cbbbeb924b7",
+  "created_at": "2026-05-26T13:12:06Z",
+  "head": "170c7ef329cd97dca17e8dfdb59fd0ce335b364f",
+  "login": "linusg",
+  "number": 1070,
+  "ref": "propertydescriptor-spacing",
   "revs": [
    {
-    "adate": "2026-05-18T12:19:42-07:00",
-    "author": "Philip Chimento",
-    "date": "2026-05-18T12:19:42-07:00",
-    "hash": "9e1f445c6b4a3ab2e05ccea0c9f61dc2fbcd9984",
-    "parents": "04e840f6f29f54e39af676d70d9a7ce675d32498",
-    "subject": "Editorial: Clarify accepted values for [[CompactDisplay]] slots"
+    "adate": "2026-05-26T14:08:48+01:00",
+    "author": "Linus Groh",
+    "date": "2026-05-26T14:08:48+01:00",
+    "hash": "170c7ef329cd97dca17e8dfdb59fd0ce335b364f",
+    "parents": "a48c0ab83cf6a2d0af295bc268c86cbbbeb924b7",
+    "subject": "Editorial: Put space before record initializer brace"
    }
   ],
-  "title": "Editorial: Clarify accepted values for [[CompactDisplay]] slots",
-  "updated_at": "2026-05-18T19:20:04Z"
+  "title": "Editorial: Put space before record initializer brace",
+  "updated_at": "2026-05-26T13:12:06Z"
  },
  {
   "base": "04e840f6f29f54e39af676d70d9a7ce675d32498",
