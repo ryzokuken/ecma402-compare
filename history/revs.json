@@ -1,5 +1,13 @@
 [
  {
+  "adate": "2026-05-27T19:29:27+01:00",
+  "author": "Linus Groh",
+  "date": "2026-05-27T14:29:27-04:00",
+  "hash": "2c336bf108651208c8ef4972d0dda6fc9d26dff1",
+  "parents": "a48c0ab83cf6a2d0af295bc268c86cbbbeb924b7",
+  "subject": "Editorial: Ensure a space before each Record initializer brace (#1070)"
+ },
+ {
   "adate": "2026-05-20T10:36:46-07:00",
   "author": "Philip Chimento",
   "date": "2026-05-20T13:36:46-04:00",
