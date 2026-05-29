@@ -1,23 +1,23 @@
 [
  {
-  "base": "a48c0ab83cf6a2d0af295bc268c86cbbbeb924b7",
-  "created_at": "2026-05-26T13:12:06Z",
-  "head": "170c7ef329cd97dca17e8dfdb59fd0ce335b364f",
-  "login": "linusg",
-  "number": 1070,
-  "ref": "propertydescriptor-spacing",
+  "base": "2c336bf108651208c8ef4972d0dda6fc9d26dff1",
+  "created_at": "2026-05-29T19:14:52Z",
+  "head": "44034b343b99d17810fbe9387accc6c2d4b3b762",
+  "login": "ptomato",
+  "number": 1072,
+  "ref": "1053-collations-of-locale",
   "revs": [
    {
-    "adate": "2026-05-26T14:08:48+01:00",
-    "author": "Linus Groh",
-    "date": "2026-05-26T14:08:48+01:00",
-    "hash": "170c7ef329cd97dca17e8dfdb59fd0ce335b364f",
-    "parents": "a48c0ab83cf6a2d0af295bc268c86cbbbeb924b7",
-    "subject": "Editorial: Put space before record initializer brace"
+    "adate": "2026-05-18T10:03:36-07:00",
+    "author": "Philip Chimento",
+    "date": "2026-05-18T10:03:36-07:00",
+    "hash": "44034b343b99d17810fbe9387accc6c2d4b3b762",
+    "parents": "04e840f6f29f54e39af676d70d9a7ce675d32498",
+    "subject": "Normative: Don't fall back to default locale in Locale.p.getCollations()"
    }
   ],
-  "title": "Editorial: Put space before record initializer brace",
-  "updated_at": "2026-05-26T13:12:06Z"
+  "title": "Normative: Don't fall back to default locale in Locale.p.getCollations()",
+  "updated_at": "2026-05-29T19:15:13Z"
  },
  {
   "base": "04e840f6f29f54e39af676d70d9a7ce675d32498",
