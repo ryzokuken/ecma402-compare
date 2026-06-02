@@ -1,5 +1,13 @@
 [
  {
+  "adate": "2026-06-02T20:24:09+01:00",
+  "author": "Linus Groh",
+  "date": "2026-06-02T15:24:09-04:00",
+  "hash": "19913f13f47e779a3543ad3940410df575c3727b",
+  "parents": "2c336bf108651208c8ef4972d0dda6fc9d26dff1",
+  "subject": "Editorial: Fix markup for \"word\" string in CreateSegmentDataObject (#1073)"
+ },
+ {
   "adate": "2026-05-27T19:29:27+01:00",
   "author": "Linus Groh",
   "date": "2026-05-27T14:29:27-04:00",
