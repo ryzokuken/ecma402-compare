@@ -1,23 +1,23 @@
 [
  {
-  "base": "2c336bf108651208c8ef4972d0dda6fc9d26dff1",
-  "created_at": "2026-06-02T10:57:13Z",
-  "head": "29a6e1a7c60058a244edb57e17444170c973c57e",
-  "login": "linusg",
-  "number": 1073,
-  "ref": "word",
+  "base": "19913f13f47e779a3543ad3940410df575c3727b",
+  "created_at": "2026-06-03T23:52:29Z",
+  "head": "a18d2067ca9deb03729c7c8cb2b72d6cfef3273a",
+  "login": "ptomato",
+  "number": 1074,
+  "ref": "1071-locale-multiple-numbering-systems",
   "revs": [
    {
-    "adate": "2026-06-02T11:56:09+01:00",
-    "author": "Linus Groh",
-    "date": "2026-06-02T14:12:33+01:00",
-    "hash": "29a6e1a7c60058a244edb57e17444170c973c57e",
-    "parents": "2c336bf108651208c8ef4972d0dda6fc9d26dff1",
-    "subject": "Markup: Fix \"word\" string in CreateSegmentDataObject"
+    "adate": "2026-06-03T16:31:25-07:00",
+    "author": "Philip Chimento",
+    "date": "2026-06-03T16:31:25-07:00",
+    "hash": "a18d2067ca9deb03729c7c8cb2b72d6cfef3273a",
+    "parents": "19913f13f47e779a3543ad3940410df575c3727b",
+    "subject": "Normative: Allow Locale.p.getNumberingSystems to return >1 item"
    }
   ],
-  "title": "Markup: Fix \"word\" string in CreateSegmentDataObject",
-  "updated_at": "2026-06-02T13:13:16Z"
+  "title": "Normative: Allow Locale.p.getNumberingSystems to return >1 item",
+  "updated_at": "2026-06-03T23:54:57Z"
  },
  {
   "base": "2c336bf108651208c8ef4972d0dda6fc9d26dff1",
