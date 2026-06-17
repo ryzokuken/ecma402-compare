@@ -60,34 +60,6 @@
   "updated_at": "2026-05-29T19:15:13Z"
  },
  {
-  "base": "04e840f6f29f54e39af676d70d9a7ce675d32498",
-  "created_at": "2026-05-18T04:44:01Z",
-  "head": "202c1db9201555d85a5bdf14482da6455f78d86e",
-  "login": "gibson042",
-  "number": 1068,
-  "ref": "2026-05-getoption-typeerror-if-missing-required",
-  "revs": [
-   {
-    "adate": "2026-05-18T00:47:07-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-05-18T00:47:07-04:00",
-    "hash": "202c1db9201555d85a5bdf14482da6455f78d86e",
-    "parents": "4d0d75f76667d213b1fb50d77d23d0aa01fbeae8",
-    "subject": "Editorial: Mark DisplayNames \"type\" as required in its call to GetOption"
-   },
-   {
-    "adate": "2026-05-18T00:41:03-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-05-18T00:41:03-04:00",
-    "hash": "4d0d75f76667d213b1fb50d77d23d0aa01fbeae8",
-    "parents": "04e840f6f29f54e39af676d70d9a7ce675d32498",
-    "subject": "Editorial: Update GetOption to throw a TypeError when a required option is missing"
-   }
-  ],
-  "title": "Editorial: Update GetOption to throw a TypeError when a required option is missing",
-  "updated_at": "2026-05-18T08:13:39Z"
- },
- {
   "base": "3d4c558180f643d7dea75f011a6355fb285f377e",
   "created_at": "2026-05-11T04:11:34Z",
   "head": "de688c16c581d557b0db3d04295da822f617fafc",
@@ -254,11 +226,19 @@
  {
   "base": "6f9c75e3e724b077a54a0baae9ca0955c260d430",
   "created_at": "2026-02-17T00:39:30Z",
-  "head": "b44fc546c98f5037240271970670bcc1bdbb9ccf",
+  "head": "d026068ed653130a37d79a95c0122ecf5319f1a4",
   "login": "ptomato",
   "number": 1044,
   "ref": "temporal-stage-4",
   "revs": [
+   {
+    "adate": "2026-06-17T17:48:05+02:00",
+    "author": "Philip Chimento",
+    "date": "2026-06-17T17:48:05+02:00",
+    "hash": "d026068ed653130a37d79a95c0122ecf5319f1a4",
+    "parents": "b44fc546c98f5037240271970670bcc1bdbb9ccf",
+    "subject": "(fixup) Fix stray straight quotes"
+   },
    {
     "adate": "2026-03-30T20:23:33-04:00",
     "author": "Philip Chimento",
@@ -397,7 +377,7 @@
    }
   ],
   "title": "Normative: Temporal and Intl Era/Month Code stage 4",
-  "updated_at": "2026-03-31T00:23:54Z"
+  "updated_at": "2026-06-17T15:48:12Z"
  },
  {
   "base": "7bbef9f4f3449ca8ae2c7deeb63712e150f5ad5a",
