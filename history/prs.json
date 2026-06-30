@@ -1,5 +1,33 @@
 [
  {
+  "base": "f345d745093804598e375a958b361d08272cbc28",
+  "created_at": "2026-06-30T16:16:01Z",
+  "head": "1ec3838bb7b3ab1272fb4f86bf9e089d3c3fe16f",
+  "login": "ptomato",
+  "number": 1077,
+  "ref": "editorial-fixes",
+  "revs": [
+   {
+    "adate": "2026-06-30T09:14:58-07:00",
+    "author": "Philip Chimento",
+    "date": "2026-06-30T09:25:52-07:00",
+    "hash": "1ec3838bb7b3ab1272fb4f86bf9e089d3c3fe16f",
+    "parents": "769923e57ae7ae6f5ff753decff36eef6ab2ad74",
+    "subject": "Editorial: Account for undefined variants"
+   },
+   {
+    "adate": "2026-06-30T09:12:26-07:00",
+    "author": "Philip Chimento",
+    "date": "2026-06-30T09:25:52-07:00",
+    "hash": "769923e57ae7ae6f5ff753decff36eef6ab2ad74",
+    "parents": "f345d745093804598e375a958b361d08272cbc28",
+    "subject": "Editorial: Correct argument lists to Construct"
+   }
+  ],
+  "title": "Two editorial fixes",
+  "updated_at": "2026-06-30T16:26:05Z"
+ },
+ {
   "base": "19913f13f47e779a3543ad3940410df575c3727b",
   "created_at": "2026-06-11T13:00:07Z",
   "head": "ef2300bc6b49deac94b03e3cb9bce44ada8b54d4",
