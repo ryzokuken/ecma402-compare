@@ -1,5 +1,53 @@
 [
  {
+  "adate": "2026-07-01T15:07:09-04:00",
+  "author": "Richard Gibson",
+  "date": "2026-07-01T15:07:09-04:00",
+  "hash": "c55ee49aaa67265b55ef1af61651b7f22ed2c756",
+  "parents": "04087cb1b0df8fbc5c476c3181f16e7ad989dd25",
+  "subject": "Editorial: Align FormatDateTimePattern mathematical comparison with editorial conventions (#1080)"
+ },
+ {
+  "adate": "2026-07-01T14:00:11-04:00",
+  "author": "Richard Gibson",
+  "date": "2026-07-01T14:00:11-04:00",
+  "hash": "04087cb1b0df8fbc5c476c3181f16e7ad989dd25",
+  "parents": "787c8a8ed482f7b6313b80d54e0a735c96dd0e8a bf442b353900dbbc43b6bb7d1112dd411d545d29",
+  "subject": "Editorial: Sync alias names and algorithms with ECMA-262 conventions (#1075)"
+ },
+ {
+  "adate": "2026-07-01T13:57:29-04:00",
+  "author": "Richard Gibson",
+  "date": "2026-07-01T13:57:29-04:00",
+  "hash": "bf442b353900dbbc43b6bb7d1112dd411d545d29",
+  "parents": "89b924e62e636e5464a3d6ad08983964fe32004b",
+  "subject": "Editorial: Further improve some alias names and alignment with conventions"
+ },
+ {
+  "adate": "2026-07-01T13:51:34-04:00",
+  "author": "Richard Gibson",
+  "date": "2026-07-01T13:51:34-04:00",
+  "hash": "89b924e62e636e5464a3d6ad08983964fe32004b",
+  "parents": "a17edfb2691fdf3f69d4f396263b8a8ecce9b1ef",
+  "subject": "Editorial: Better align with some other conventions"
+ },
+ {
+  "adate": "2026-07-01T13:46:08-04:00",
+  "author": "Richard Gibson",
+  "date": "2026-07-01T13:46:08-04:00",
+  "hash": "a17edfb2691fdf3f69d4f396263b8a8ecce9b1ef",
+  "parents": "ef2300bc6b49deac94b03e3cb9bce44ada8b54d4",
+  "subject": "Editorial: Improve some alias names"
+ },
+ {
+  "adate": "2026-07-01T08:35:37-07:00",
+  "author": "Philip Chimento",
+  "date": "2026-07-01T11:35:37-04:00",
+  "hash": "787c8a8ed482f7b6313b80d54e0a735c96dd0e8a",
+  "parents": "f345d745093804598e375a958b361d08272cbc28",
+  "subject": "Editorial: Fix some minor issues (#1077)"
+ },
+ {
   "adate": "2026-06-15T21:08:32+02:00",
   "author": "Shane F. Carr",
   "date": "2026-06-15T21:08:32+02:00",
@@ -30,6 +78,14 @@
   "hash": "00372a1b754a10b6c4369f2ee80b7982d2182c19",
   "parents": "19913f13f47e779a3543ad3940410df575c3727b",
   "subject": "Editorial: Update GetOption to throw a TypeError when a required option is missing (#1068)"
+ },
+ {
+  "adate": "2026-06-11T13:52:35+01:00",
+  "author": "Linus Groh",
+  "date": "2026-06-11T13:52:35+01:00",
+  "hash": "ef2300bc6b49deac94b03e3cb9bce44ada8b54d4",
+  "parents": "19913f13f47e779a3543ad3940410df575c3727b",
+  "subject": "Editorial: Sync alias names with recent 262 changes"
  },
  {
   "adate": "2026-06-02T20:24:09+01:00",

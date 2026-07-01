@@ -1,8 +1,52 @@
 [
  {
+  "base": "04087cb1b0df8fbc5c476c3181f16e7ad989dd25",
+  "created_at": "2026-07-01T18:57:57Z",
+  "head": "27666899ec2a154a2087b0fc404b2763305dfc85",
+  "login": "gibson042",
+  "number": 1079,
+  "ref": "2026-07-improve-createdatetimeformat",
+  "revs": [
+   {
+    "adate": "2026-07-01T14:35:35-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-07-01T14:56:18-04:00",
+    "hash": "27666899ec2a154a2087b0fc404b2763305dfc85",
+    "parents": "8407f90ef8af4d62dc01c165a657c6f302e1f49d",
+    "subject": "Editorial: DRY out CreateDateTimeFormat numeric field defaulting"
+   },
+   {
+    "adate": "2026-07-01T14:35:35-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-07-01T14:56:18-04:00",
+    "hash": "8407f90ef8af4d62dc01c165a657c6f302e1f49d",
+    "parents": "c57304fe5d63715707682f79da4e3c2102a8bd54",
+    "subject": "Editorial: Simplify _hc_ initialization"
+   },
+   {
+    "adate": "2026-07-01T14:35:35-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-07-01T14:56:18-04:00",
+    "hash": "c57304fe5d63715707682f79da4e3c2102a8bd54",
+    "parents": "ac32a9bd250e927ef231ac27596519cb965a5dd8",
+    "subject": "Editorial: Convert some If steps to single-line"
+   },
+   {
+    "adate": "2026-07-01T14:35:35-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-07-01T14:35:35-04:00",
+    "hash": "ac32a9bd250e927ef231ac27596519cb965a5dd8",
+    "parents": "04087cb1b0df8fbc5c476c3181f16e7ad989dd25",
+    "subject": "Editorial: Replace some manual steps with GetOption"
+   }
+  ],
+  "title": "Editorial: Improve CreateDateTimeFormat",
+  "updated_at": "2026-07-01T18:57:57Z"
+ },
+ {
   "base": "f345d745093804598e375a958b361d08272cbc28",
   "created_at": "2026-07-01T13:31:34Z",
-  "head": "18cd601c94722cbeb431798442fce1940bb21264",
+  "head": "5de183a9ecdc98f1c3a6697f0427bab15a4c426f",
   "login": "linusg",
   "number": 1078,
   "ref": "intrinsics",
@@ -10,62 +54,14 @@
    {
     "adate": "2026-07-01T14:30:51+01:00",
     "author": "Linus Groh",
-    "date": "2026-07-01T14:30:51+01:00",
-    "hash": "18cd601c94722cbeb431798442fce1940bb21264",
+    "date": "2026-07-01T16:33:26+01:00",
+    "hash": "5de183a9ecdc98f1c3a6697f0427bab15a4c426f",
     "parents": "f345d745093804598e375a958b361d08272cbc28",
-    "subject": "Editorial: Sync Well-Known Intrinsic Objects table with recent 262 changes"
+    "subject": "Editorial: Update Well-Known Intrinsic Objects table to match 262"
    }
   ],
-  "title": "Editorial: Sync Well-Known Intrinsic Objects table with recent 262 changes",
-  "updated_at": "2026-07-01T13:33:59Z"
- },
- {
-  "base": "f345d745093804598e375a958b361d08272cbc28",
-  "created_at": "2026-06-30T16:16:01Z",
-  "head": "1ec3838bb7b3ab1272fb4f86bf9e089d3c3fe16f",
-  "login": "ptomato",
-  "number": 1077,
-  "ref": "editorial-fixes",
-  "revs": [
-   {
-    "adate": "2026-06-30T09:14:58-07:00",
-    "author": "Philip Chimento",
-    "date": "2026-06-30T09:25:52-07:00",
-    "hash": "1ec3838bb7b3ab1272fb4f86bf9e089d3c3fe16f",
-    "parents": "769923e57ae7ae6f5ff753decff36eef6ab2ad74",
-    "subject": "Editorial: Account for undefined variants"
-   },
-   {
-    "adate": "2026-06-30T09:12:26-07:00",
-    "author": "Philip Chimento",
-    "date": "2026-06-30T09:25:52-07:00",
-    "hash": "769923e57ae7ae6f5ff753decff36eef6ab2ad74",
-    "parents": "f345d745093804598e375a958b361d08272cbc28",
-    "subject": "Editorial: Correct argument lists to Construct"
-   }
-  ],
-  "title": "Two editorial fixes",
-  "updated_at": "2026-06-30T16:26:05Z"
- },
- {
-  "base": "19913f13f47e779a3543ad3940410df575c3727b",
-  "created_at": "2026-06-11T13:00:07Z",
-  "head": "ef2300bc6b49deac94b03e3cb9bce44ada8b54d4",
-  "login": "linusg",
-  "number": 1075,
-  "ref": "renames",
-  "revs": [
-   {
-    "adate": "2026-06-11T13:52:35+01:00",
-    "author": "Linus Groh",
-    "date": "2026-06-11T13:52:35+01:00",
-    "hash": "ef2300bc6b49deac94b03e3cb9bce44ada8b54d4",
-    "parents": "19913f13f47e779a3543ad3940410df575c3727b",
-    "subject": "Editorial: Sync alias names with recent 262 changes"
-   }
-  ],
-  "title": "Editorial: Sync alias names with recent 262 changes",
-  "updated_at": "2026-06-11T13:00:41Z"
+  "title": "Editorial: Update Well-Known Intrinsic Objects table to match 262",
+  "updated_at": "2026-07-01T15:37:01Z"
  },
  {
   "base": "19913f13f47e779a3543ad3940410df575c3727b",
