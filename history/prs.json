@@ -1,5 +1,25 @@
 [
  {
+  "base": "90ee82a8e0b720b8d4a50d1fd8fbd4054724641a",
+  "created_at": "2026-07-04T17:00:13Z",
+  "head": "56f2074f0d6fb1320cd14320b6497a24d2a25243",
+  "login": "gibson042",
+  "number": 1083,
+  "ref": "gh-1082-clarify-getlocalevariants",
+  "revs": [
+   {
+    "adate": "2026-07-04T12:58:10-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-07-04T12:58:10-04:00",
+    "hash": "56f2074f0d6fb1320cd14320b6497a24d2a25243",
+    "parents": "90ee82a8e0b720b8d4a50d1fd8fbd4054724641a",
+    "subject": "Editorial: Make the GetLocaleVariants more explicit"
+   }
+  ],
+  "title": "Editorial: Make the GetLocaleVariants more explicit",
+  "updated_at": "2026-07-04T17:00:13Z"
+ },
+ {
   "base": "04087cb1b0df8fbc5c476c3181f16e7ad989dd25",
   "created_at": "2026-07-01T18:57:57Z",
   "head": "27666899ec2a154a2087b0fc404b2763305dfc85",
