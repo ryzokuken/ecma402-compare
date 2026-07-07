@@ -1,5 +1,13 @@
 [
  {
+  "adate": "2026-07-07T12:09:07-04:00",
+  "author": "Richard Gibson",
+  "date": "2026-07-07T12:09:07-04:00",
+  "hash": "d00c5994ccbc5118823e9778415d82f6ee6f9985",
+  "parents": "90ee82a8e0b720b8d4a50d1fd8fbd4054724641a",
+  "subject": "Editorial: Make the GetLocaleVariants algorithm more explicit (#1083)"
+ },
+ {
   "adate": "2026-07-01T23:21:39+01:00",
   "author": "Linus Groh",
   "date": "2026-07-01T18:21:39-04:00",

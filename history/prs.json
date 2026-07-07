@@ -1,5 +1,25 @@
 [
  {
+  "base": "d00c5994ccbc5118823e9778415d82f6ee6f9985",
+  "created_at": "2026-07-07T19:00:51Z",
+  "head": "522d29f0fd6ba760cc9ac243cd8a4ef0692c79d5",
+  "login": "gibson042",
+  "number": 1087,
+  "ref": "gh-1083-followup",
+  "revs": [
+   {
+    "adate": "2026-07-07T12:09:07-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-07-07T14:52:54-04:00",
+    "hash": "522d29f0fd6ba760cc9ac243cd8a4ef0692c79d5",
+    "parents": "d00c5994ccbc5118823e9778415d82f6ee6f9985",
+    "subject": "Editorial: Make the Locale object abstract operation algorithms more explicit"
+   }
+  ],
+  "title": "Editorial: Make the Locale object abstract operation algorithms more explicit",
+  "updated_at": "2026-07-07T19:00:51Z"
+ },
+ {
   "base": "90ee82a8e0b720b8d4a50d1fd8fbd4054724641a",
   "created_at": "2026-07-07T01:08:55Z",
   "head": "5c22c44b2fd92c22b241e2c6b0959e405d6f8924",
@@ -38,26 +58,6 @@
   ],
   "title": "Undo unintentional normative change in CalendarsOfLocale",
   "updated_at": "2026-07-06T23:10:50Z"
- },
- {
-  "base": "90ee82a8e0b720b8d4a50d1fd8fbd4054724641a",
-  "created_at": "2026-07-04T17:00:13Z",
-  "head": "56f2074f0d6fb1320cd14320b6497a24d2a25243",
-  "login": "gibson042",
-  "number": 1083,
-  "ref": "gh-1082-clarify-getlocalevariants",
-  "revs": [
-   {
-    "adate": "2026-07-04T12:58:10-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-07-04T12:58:10-04:00",
-    "hash": "56f2074f0d6fb1320cd14320b6497a24d2a25243",
-    "parents": "90ee82a8e0b720b8d4a50d1fd8fbd4054724641a",
-    "subject": "Editorial: Make the GetLocaleVariants more explicit"
-   }
-  ],
-  "title": "Editorial: Make the GetLocaleVariants more explicit",
-  "updated_at": "2026-07-04T17:00:13Z"
  },
  {
   "base": "04087cb1b0df8fbc5c476c3181f16e7ad989dd25",
