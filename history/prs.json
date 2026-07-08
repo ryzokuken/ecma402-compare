@@ -20,24 +20,32 @@
   "updated_at": "2026-07-07T19:00:51Z"
  },
  {
-  "base": "90ee82a8e0b720b8d4a50d1fd8fbd4054724641a",
+  "base": "c04831642afea45a926acd514aac363de31657dc",
   "created_at": "2026-07-07T01:08:55Z",
-  "head": "5c22c44b2fd92c22b241e2c6b0959e405d6f8924",
+  "head": "16b92c1e2d5e493d76822c6543c6eed9b4c6eafd",
   "login": "ptomato",
   "number": 1086,
   "ref": "1056-hourcyclesoflocale-language-subtag",
   "revs": [
    {
+    "adate": "2026-07-07T17:15:17-07:00",
+    "author": "Philip Chimento",
+    "date": "2026-07-07T17:15:17-07:00",
+    "hash": "16b92c1e2d5e493d76822c6543c6eed9b4c6eafd",
+    "parents": "9ce02f508fc91d428b4419bf5e0f03ed631a7169",
+    "subject": "fixup: Make the same change for CalendarsOfLocale"
+   },
+   {
     "adate": "2026-07-06T18:08:11-07:00",
     "author": "Philip Chimento",
-    "date": "2026-07-06T18:08:11-07:00",
-    "hash": "5c22c44b2fd92c22b241e2c6b0959e405d6f8924",
-    "parents": "90ee82a8e0b720b8d4a50d1fd8fbd4054724641a",
+    "date": "2026-07-07T17:05:18-07:00",
+    "hash": "9ce02f508fc91d428b4419bf5e0f03ed631a7169",
+    "parents": "c04831642afea45a926acd514aac363de31657dc",
     "subject": "Normative: Take language subtag into account in locale hour cycle lookup"
    }
   ],
   "title": "Normative: Take language subtag into account in locale hour cycle lookup",
-  "updated_at": "2026-07-07T01:16:31Z"
+  "updated_at": "2026-07-08T00:18:52Z"
  },
  {
   "base": "90ee82a8e0b720b8d4a50d1fd8fbd4054724641a",

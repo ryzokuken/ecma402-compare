@@ -1,5 +1,13 @@
 [
  {
+  "adate": "2026-07-07T17:27:05-04:00",
+  "author": "Richard Gibson",
+  "date": "2026-07-07T17:27:05-04:00",
+  "hash": "c04831642afea45a926acd514aac363de31657dc",
+  "parents": "d00c5994ccbc5118823e9778415d82f6ee6f9985",
+  "subject": "Meta: Bump ecmarkup to v24.2.0 (#1088)"
+ },
+ {
   "adate": "2026-07-07T12:09:07-04:00",
   "author": "Richard Gibson",
   "date": "2026-07-07T12:09:07-04:00",
