@@ -1,5 +1,13 @@
 [
  {
+  "adate": "2026-07-23T09:14:23-07:00",
+  "author": "Philip Chimento",
+  "date": "2026-07-23T12:14:23-04:00",
+  "hash": "b76fb1759ec12c36600851b5881a863458b1f0c0",
+  "parents": "b7dfc3c9832914b15e3befb6b195bc504ef03d88",
+  "subject": "Normative: Don't fall back to default locale in Locale getCollations() (#1072)"
+ },
+ {
   "adate": "2026-07-22T23:09:38+02:00",
   "author": "Andr\u00e9 Bargull",
   "date": "2026-07-22T17:09:38-04:00",
