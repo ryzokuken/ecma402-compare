@@ -1,5 +1,21 @@
 [
  {
+  "adate": "2026-07-22T23:09:38+02:00",
+  "author": "Andr\u00e9 Bargull",
+  "date": "2026-07-22T17:09:38-04:00",
+  "hash": "b7dfc3c9832914b15e3befb6b195bc504ef03d88",
+  "parents": "8a446789681dc044277f59c5872f6903041f6420",
+  "subject": "Normative: Call RegionPreference in WeekInfoOfLocale (#1051)"
+ },
+ {
+  "adate": "2026-07-22T13:53:17-07:00",
+  "author": "Philip Chimento",
+  "date": "2026-07-22T16:53:17-04:00",
+  "hash": "8a446789681dc044277f59c5872f6903041f6420",
+  "parents": "5273ed81c1a81cd87aaaaf87df48e7084d38259c",
+  "subject": "Normative: Take language subtag into account in locale hour cycle and calendar lookup (#1086)"
+ },
+ {
   "adate": "2026-07-13T09:33:38-07:00",
   "author": "Philip Chimento",
   "date": "2026-07-13T12:33:38-04:00",

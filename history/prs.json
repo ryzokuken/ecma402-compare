@@ -40,34 +40,6 @@
   "updated_at": "2026-07-07T19:00:51Z"
  },
  {
-  "base": "5273ed81c1a81cd87aaaaf87df48e7084d38259c",
-  "created_at": "2026-07-07T01:08:55Z",
-  "head": "0093c465bae0a3df8bbe5ed07ca918a1770bf60f",
-  "login": "ptomato",
-  "number": 1086,
-  "ref": "1056-hourcyclesoflocale-language-subtag",
-  "revs": [
-   {
-    "adate": "2026-07-07T17:15:17-07:00",
-    "author": "Philip Chimento",
-    "date": "2026-07-14T16:36:25-07:00",
-    "hash": "0093c465bae0a3df8bbe5ed07ca918a1770bf60f",
-    "parents": "33210dcd6598a7bd2ccab8eb61e10c367b77d7b7",
-    "subject": "fixup: Make the same change for CalendarsOfLocale"
-   },
-   {
-    "adate": "2026-07-06T18:08:11-07:00",
-    "author": "Philip Chimento",
-    "date": "2026-07-14T16:36:25-07:00",
-    "hash": "33210dcd6598a7bd2ccab8eb61e10c367b77d7b7",
-    "parents": "5273ed81c1a81cd87aaaaf87df48e7084d38259c",
-    "subject": "Normative: Take language subtag into account in locale hour cycle lookup"
-   }
-  ],
-  "title": "Normative: Take language subtag into account in locale hour cycle lookup",
-  "updated_at": "2026-07-14T23:38:11Z"
- },
- {
   "base": "04087cb1b0df8fbc5c476c3181f16e7ad989dd25",
   "created_at": "2026-07-01T18:57:57Z",
   "head": "27666899ec2a154a2087b0fc404b2763305dfc85",
@@ -152,9 +124,9 @@
   "updated_at": "2026-06-03T23:54:57Z"
  },
  {
-  "base": "2c336bf108651208c8ef4972d0dda6fc9d26dff1",
+  "base": "b7dfc3c9832914b15e3befb6b195bc504ef03d88",
   "created_at": "2026-05-29T19:14:52Z",
-  "head": "44034b343b99d17810fbe9387accc6c2d4b3b762",
+  "head": "668f293e86edf1e85373487ba2c87f3e77049291",
   "login": "ptomato",
   "number": 1072,
   "ref": "1053-collations-of-locale",
@@ -162,14 +134,14 @@
    {
     "adate": "2026-05-18T10:03:36-07:00",
     "author": "Philip Chimento",
-    "date": "2026-05-18T10:03:36-07:00",
-    "hash": "44034b343b99d17810fbe9387accc6c2d4b3b762",
-    "parents": "04e840f6f29f54e39af676d70d9a7ce675d32498",
+    "date": "2026-07-22T16:26:57-07:00",
+    "hash": "668f293e86edf1e85373487ba2c87f3e77049291",
+    "parents": "b7dfc3c9832914b15e3befb6b195bc504ef03d88",
     "subject": "Normative: Don't fall back to default locale in Locale.p.getCollations()"
    }
   ],
   "title": "Normative: Don't fall back to default locale in Locale.p.getCollations()",
-  "updated_at": "2026-05-29T19:15:13Z"
+  "updated_at": "2026-07-23T00:36:59Z"
  },
  {
   "base": "3d4c558180f643d7dea75f011a6355fb285f377e",
@@ -210,26 +182,6 @@
   ],
   "title": "Normative: Align RegionPreference and CanonicalUnicodeSubdivision with UTS 35",
   "updated_at": "2026-04-15T13:18:38Z"
- },
- {
-  "base": "5273ed81c1a81cd87aaaaf87df48e7084d38259c",
-  "created_at": "2026-04-09T09:46:55Z",
-  "head": "f6c6b8f1ed6b2c03573ce10869f4ab4d84b00548",
-  "login": "anba",
-  "number": 1051,
-  "ref": "weekinfo-region",
-  "revs": [
-   {
-    "adate": "2026-04-09T11:44:35+02:00",
-    "author": "Andr\u00e9 Bargull",
-    "date": "2026-07-17T17:48:57-07:00",
-    "hash": "f6c6b8f1ed6b2c03573ce10869f4ab4d84b00548",
-    "parents": "5273ed81c1a81cd87aaaaf87df48e7084d38259c",
-    "subject": "Normative: Call RegionPreference in WeekInfoOfLocale"
-   }
-  ],
-  "title": "Normative: Call RegionPreference in WeekInfoOfLocale",
-  "updated_at": "2026-07-18T00:49:56Z"
  },
  {
   "base": "bfe565d508f4b35c4eb045bd47c11214caeb63d9",
