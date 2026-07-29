@@ -1,5 +1,13 @@
 [
  {
+  "adate": "2026-07-29T08:59:05-07:00",
+  "author": "Philip Chimento",
+  "date": "2026-07-29T11:59:05-04:00",
+  "hash": "9f31dd5aa1821503a859a384d2907970937ac2ff",
+  "parents": "b76fb1759ec12c36600851b5881a863458b1f0c0",
+  "subject": "Editorial: Require valid unsigned rounding modes (#1092)"
+ },
+ {
   "adate": "2026-07-23T09:14:23-07:00",
   "author": "Philip Chimento",
   "date": "2026-07-23T12:14:23-04:00",
