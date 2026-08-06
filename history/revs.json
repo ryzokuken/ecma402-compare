@@ -1,5 +1,13 @@
 [
  {
+  "adate": "2026-08-06T19:29:23+02:00",
+  "author": "Linus Groh",
+  "date": "2026-08-06T13:29:23-04:00",
+  "hash": "020a867cb82453aac1fc298729bd0a68b1ef2a13",
+  "parents": "9f31dd5aa1821503a859a384d2907970937ac2ff",
+  "subject": "Editorial: Update Well-Known Intrinsic Objects table to match 262 (#1078)"
+ },
+ {
   "adate": "2026-07-29T08:59:05-07:00",
   "author": "Philip Chimento",
   "date": "2026-07-29T11:59:05-04:00",
