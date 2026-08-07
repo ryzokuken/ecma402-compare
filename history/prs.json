@@ -1,23 +1,23 @@
 [
  {
-  "base": "b76fb1759ec12c36600851b5881a863458b1f0c0",
-  "created_at": "2026-07-28T18:10:46Z",
-  "head": "953bf6241b1aefe30f0a92d8a4facf799ee55084",
-  "login": "ptomato",
-  "number": 1092,
-  "ref": "apply-unsigned-rounding-mode-undefined",
+  "base": "020a867cb82453aac1fc298729bd0a68b1ef2a13",
+  "created_at": "2026-08-07T10:06:34Z",
+  "head": "2045bc60fb5e0917837fbcc9ace863f2469e328e",
+  "login": "jessealama",
+  "number": 1093,
+  "ref": "allow-engines-to-ship-data-for-locales-in-accept-language",
   "revs": [
    {
-    "adate": "2026-07-28T11:10:05-07:00",
-    "author": "Philip Chimento",
-    "date": "2026-07-28T11:10:05-07:00",
-    "hash": "953bf6241b1aefe30f0a92d8a4facf799ee55084",
-    "parents": "b76fb1759ec12c36600851b5881a863458b1f0c0",
-    "subject": "Editorial: Remove iffy usage of undefined rounding mode"
+    "adate": "2026-08-07T11:58:51+02:00",
+    "author": "Jesse Alama",
+    "date": "2026-08-07T11:58:51+02:00",
+    "hash": "2045bc60fb5e0917837fbcc9ace863f2469e328e",
+    "parents": "020a867cb82453aac1fc298729bd0a68b1ef2a13",
+    "subject": "Determine the initial set of locales from available languages, too"
    }
   ],
-  "title": "Editorial: Remove iffy usage of undefined rounding mode",
-  "updated_at": "2026-07-28T18:10:46Z"
+  "title": "Use language preferences in determining locales",
+  "updated_at": "2026-08-07T10:06:34Z"
  },
  {
   "base": "5273ed81c1a81cd87aaaaf87df48e7084d38259c",
@@ -102,26 +102,6 @@
   ],
   "title": "Editorial: Improve CreateDateTimeFormat",
   "updated_at": "2026-07-01T18:57:57Z"
- },
- {
-  "base": "f345d745093804598e375a958b361d08272cbc28",
-  "created_at": "2026-07-01T13:31:34Z",
-  "head": "5de183a9ecdc98f1c3a6697f0427bab15a4c426f",
-  "login": "linusg",
-  "number": 1078,
-  "ref": "intrinsics",
-  "revs": [
-   {
-    "adate": "2026-07-01T14:30:51+01:00",
-    "author": "Linus Groh",
-    "date": "2026-07-01T16:33:26+01:00",
-    "hash": "5de183a9ecdc98f1c3a6697f0427bab15a4c426f",
-    "parents": "f345d745093804598e375a958b361d08272cbc28",
-    "subject": "Editorial: Update Well-Known Intrinsic Objects table to match 262"
-   }
-  ],
-  "title": "Editorial: Update Well-Known Intrinsic Objects table to match 262",
-  "updated_at": "2026-07-01T15:37:01Z"
  },
  {
   "base": "19913f13f47e779a3543ad3940410df575c3727b",
