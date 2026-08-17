@@ -1,5 +1,13 @@
 [
  {
+  "adate": "2026-08-17T19:26:59+02:00",
+  "author": "Shane F. Carr",
+  "date": "2026-08-17T19:26:59+02:00",
+  "hash": "b1c961988b9a07894b1dc3dc2b5626ea48387d61",
+  "parents": "020a867cb82453aac1fc298729bd0a68b1ef2a13",
+  "subject": "Create notes-2026-08-06.md"
+ },
+ {
   "adate": "2026-08-06T19:29:23+02:00",
   "author": "Linus Groh",
   "date": "2026-08-06T13:29:23-04:00",
