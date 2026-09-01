@@ -152,24 +152,32 @@
   "updated_at": "2026-07-01T18:57:57Z"
  },
  {
-  "base": "19913f13f47e779a3543ad3940410df575c3727b",
+  "base": "b1c961988b9a07894b1dc3dc2b5626ea48387d61",
   "created_at": "2026-06-03T23:52:29Z",
-  "head": "a18d2067ca9deb03729c7c8cb2b72d6cfef3273a",
+  "head": "c1997e387bcac1ecfd80eed2d22954defcf05917",
   "login": "ptomato",
   "number": 1074,
   "ref": "1071-locale-multiple-numbering-systems",
   "revs": [
    {
+    "adate": "2026-09-01T10:33:15-07:00",
+    "author": "Philip Chimento",
+    "date": "2026-09-01T10:33:15-07:00",
+    "hash": "c1997e387bcac1ecfd80eed2d22954defcf05917",
+    "parents": "247955955207c3ef9973df42f8ff78f5735a5625",
+    "subject": "(fixup) Handle LocaleData.[[nu]] containing irrelevant numbering systems"
+   },
+   {
     "adate": "2026-06-03T16:31:25-07:00",
     "author": "Philip Chimento",
-    "date": "2026-06-03T16:31:25-07:00",
-    "hash": "a18d2067ca9deb03729c7c8cb2b72d6cfef3273a",
-    "parents": "19913f13f47e779a3543ad3940410df575c3727b",
+    "date": "2026-09-01T09:39:09-07:00",
+    "hash": "247955955207c3ef9973df42f8ff78f5735a5625",
+    "parents": "b1c961988b9a07894b1dc3dc2b5626ea48387d61",
     "subject": "Normative: Allow Locale.p.getNumberingSystems to return >1 item"
    }
   ],
   "title": "Normative: Allow Locale.p.getNumberingSystems to return >1 item",
-  "updated_at": "2026-06-03T23:54:57Z"
+  "updated_at": "2026-09-01T17:36:04Z"
  },
  {
   "base": "3d4c558180f643d7dea75f011a6355fb285f377e",
