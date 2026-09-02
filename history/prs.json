@@ -154,11 +154,19 @@
  {
   "base": "b1c961988b9a07894b1dc3dc2b5626ea48387d61",
   "created_at": "2026-06-03T23:52:29Z",
-  "head": "c1997e387bcac1ecfd80eed2d22954defcf05917",
+  "head": "4ac300dc8733f201d74d09bc23787b10f9082606",
   "login": "ptomato",
   "number": 1074,
   "ref": "1071-locale-multiple-numbering-systems",
   "revs": [
+   {
+    "adate": "2026-09-01T15:51:45-07:00",
+    "author": "Philip Chimento",
+    "date": "2026-09-01T15:51:45-07:00",
+    "hash": "4ac300dc8733f201d74d09bc23787b10f9082606",
+    "parents": "c1997e387bcac1ecfd80eed2d22954defcf05917",
+    "subject": "Add suggestion from code review"
+   },
    {
     "adate": "2026-09-01T10:33:15-07:00",
     "author": "Philip Chimento",
@@ -177,7 +185,7 @@
    }
   ],
   "title": "Normative: Allow Locale.p.getNumberingSystems to return >1 item",
-  "updated_at": "2026-09-01T17:36:04Z"
+  "updated_at": "2026-09-01T22:51:47Z"
  },
  {
   "base": "3d4c558180f643d7dea75f011a6355fb285f377e",
