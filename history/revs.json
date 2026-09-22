@@ -1,5 +1,13 @@
 [
  {
+  "adate": "2026-09-22T14:39:08-04:00",
+  "author": "Richard Gibson",
+  "date": "2026-09-22T14:39:08-04:00",
+  "hash": "f98946de43caa49876b6167beee4f4e7f1c1ed74",
+  "parents": "832ec18d28325d1a30661f3d02271d365a1f9784",
+  "subject": "Editorial: Replace Number-specific term \"finite\" with \"finite Number\" (#1091)"
+ },
+ {
   "adate": "2026-09-15T12:55:27-04:00",
   "author": "Richard Gibson",
   "date": "2026-09-15T12:55:27-04:00",
