@@ -1,5 +1,25 @@
 [
  {
+  "base": "e463f3c8b62e5c67f4846cd05eec40d8d5947ed0",
+  "created_at": "2026-09-29T18:43:45Z",
+  "head": "9a593cd248c52eeda36e0875812d1bb300b7c08f",
+  "login": "jugglinmike",
+  "number": 1104,
+  "ref": "default-collation-string",
+  "revs": [
+   {
+    "adate": "2026-09-29T14:09:46-04:00",
+    "author": "Mike Pennisi",
+    "date": "2026-09-29T14:13:51-04:00",
+    "hash": "9a593cd248c52eeda36e0875812d1bb300b7c08f",
+    "parents": "e463f3c8b62e5c67f4846cd05eec40d8d5947ed0",
+    "subject": "Editorial: remove indirection"
+   }
+  ],
+  "title": "Editorial: remove indirection",
+  "updated_at": "2026-09-29T18:43:45Z"
+ },
+ {
   "base": "f98946de43caa49876b6167beee4f4e7f1c1ed74",
   "created_at": "2026-09-22T10:36:13Z",
   "head": "9401d362b2b234a5ca1156c07b6e5812045769b1",
