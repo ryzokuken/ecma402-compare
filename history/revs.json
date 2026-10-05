@@ -1,5 +1,13 @@
 [
  {
+  "adate": "2026-10-06T06:44:18+09:00",
+  "author": "Richard Gibson",
+  "date": "2026-10-05T17:44:18-04:00",
+  "hash": "0eaf73fc7c2d8bf2c90f33098626cff29276f000",
+  "parents": "e463f3c8b62e5c67f4846cd05eec40d8d5947ed0",
+  "subject": "Editorial: Make the Locale object abstract operation algorithms more explicit (#1087)"
+ },
+ {
   "adate": "2026-09-23T09:46:42-07:00",
   "author": "Shane F. Carr",
   "date": "2026-09-23T09:46:42-07:00",
