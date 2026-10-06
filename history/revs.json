@@ -1,5 +1,13 @@
 [
  {
+  "adate": "2026-10-06T11:26:23-04:00",
+  "author": "jugglinmike",
+  "date": "2026-10-06T11:26:23-04:00",
+  "hash": "7ae78cfdf8255468ffc8ebda33dafaea952808dd",
+  "parents": "0eaf73fc7c2d8bf2c90f33098626cff29276f000",
+  "subject": "Editorial: Update links to BCP 47 (#1106)"
+ },
+ {
   "adate": "2026-10-06T06:44:18+09:00",
   "author": "Richard Gibson",
   "date": "2026-10-05T17:44:18-04:00",
