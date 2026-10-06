@@ -2,11 +2,19 @@
  {
   "base": "e463f3c8b62e5c67f4846cd05eec40d8d5947ed0",
   "created_at": "2026-10-05T18:09:14Z",
-  "head": "1371bd3cf58f543705a8776c53253d4fc3766efd",
+  "head": "74a2c76a69cc257b9818f8e545dfd0af5b7cb1ed",
   "login": "jugglinmike",
   "number": 1106,
   "ref": "fix-link-to-bcp47",
   "revs": [
+   {
+    "adate": "2026-10-05T21:11:13-04:00",
+    "author": "Mike Pennisi",
+    "date": "2026-10-05T21:11:13-04:00",
+    "hash": "74a2c76a69cc257b9818f8e545dfd0af5b7cb1ed",
+    "parents": "1371bd3cf58f543705a8776c53253d4fc3766efd",
+    "subject": "fixup! Editorial: Update link to BCP47"
+   },
    {
     "adate": "2026-10-05T14:06:02-04:00",
     "author": "Mike Pennisi",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Editorial: Update link to BCP47",
-  "updated_at": "2026-10-05T18:40:44Z"
+  "updated_at": "2026-10-06T01:12:05Z"
  },
  {
   "base": "e463f3c8b62e5c67f4846cd05eec40d8d5947ed0",
