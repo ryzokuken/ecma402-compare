@@ -1,34 +1,6 @@
 [
  {
   "base": "e463f3c8b62e5c67f4846cd05eec40d8d5947ed0",
-  "created_at": "2026-10-05T18:09:14Z",
-  "head": "74a2c76a69cc257b9818f8e545dfd0af5b7cb1ed",
-  "login": "jugglinmike",
-  "number": 1106,
-  "ref": "fix-link-to-bcp47",
-  "revs": [
-   {
-    "adate": "2026-10-05T21:11:13-04:00",
-    "author": "Mike Pennisi",
-    "date": "2026-10-05T21:11:13-04:00",
-    "hash": "74a2c76a69cc257b9818f8e545dfd0af5b7cb1ed",
-    "parents": "1371bd3cf58f543705a8776c53253d4fc3766efd",
-    "subject": "fixup! Editorial: Update link to BCP47"
-   },
-   {
-    "adate": "2026-10-05T14:06:02-04:00",
-    "author": "Mike Pennisi",
-    "date": "2026-10-05T14:06:02-04:00",
-    "hash": "1371bd3cf58f543705a8776c53253d4fc3766efd",
-    "parents": "e463f3c8b62e5c67f4846cd05eec40d8d5947ed0",
-    "subject": "Editorial: Update link to BCP47"
-   }
-  ],
-  "title": "Editorial: Update link to BCP47",
-  "updated_at": "2026-10-06T01:12:05Z"
- },
- {
-  "base": "e463f3c8b62e5c67f4846cd05eec40d8d5947ed0",
   "created_at": "2026-09-29T18:43:45Z",
   "head": "9a593cd248c52eeda36e0875812d1bb300b7c08f",
   "login": "jugglinmike",
@@ -88,26 +60,6 @@
   "updated_at": "2026-09-02T18:58:44Z"
  },
  {
-  "base": "b1c961988b9a07894b1dc3dc2b5626ea48387d61",
-  "created_at": "2026-08-31T19:13:33Z",
-  "head": "82ea4561b55f5916ad0f6b23601044cbfceaa32b",
-  "login": "gibson042",
-  "number": 1096,
-  "ref": "2026-08-simple-resolvelocale",
-  "revs": [
-   {
-    "adate": "2026-08-31T15:08:31-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-08-31T15:08:31-04:00",
-    "hash": "82ea4561b55f5916ad0f6b23601044cbfceaa32b",
-    "parents": "b1c961988b9a07894b1dc3dc2b5626ea48387d61",
-    "subject": "Editorial: Generalize ResolveLocale to support pure BCP 47 lookup without localeData"
-   }
-  ],
-  "title": "Editorial: Generalize ResolveLocale to support pure BCP 47 lookup without localeData",
-  "updated_at": "2026-08-31T19:13:33Z"
- },
- {
   "base": "832ec18d28325d1a30661f3d02271d365a1f9784",
   "created_at": "2026-08-23T19:25:22Z",
   "head": "7c6de7db555c539164bb1ab926d9e64c3fc0f61a",
@@ -156,50 +108,6 @@
   "updated_at": "2026-08-07T10:06:34Z"
  },
  {
-  "base": "04087cb1b0df8fbc5c476c3181f16e7ad989dd25",
-  "created_at": "2026-07-01T18:57:57Z",
-  "head": "27666899ec2a154a2087b0fc404b2763305dfc85",
-  "login": "gibson042",
-  "number": 1079,
-  "ref": "2026-07-improve-createdatetimeformat",
-  "revs": [
-   {
-    "adate": "2026-07-01T14:35:35-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-07-01T14:56:18-04:00",
-    "hash": "27666899ec2a154a2087b0fc404b2763305dfc85",
-    "parents": "8407f90ef8af4d62dc01c165a657c6f302e1f49d",
-    "subject": "Editorial: DRY out CreateDateTimeFormat numeric field defaulting"
-   },
-   {
-    "adate": "2026-07-01T14:35:35-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-07-01T14:56:18-04:00",
-    "hash": "8407f90ef8af4d62dc01c165a657c6f302e1f49d",
-    "parents": "c57304fe5d63715707682f79da4e3c2102a8bd54",
-    "subject": "Editorial: Simplify _hc_ initialization"
-   },
-   {
-    "adate": "2026-07-01T14:35:35-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-07-01T14:56:18-04:00",
-    "hash": "c57304fe5d63715707682f79da4e3c2102a8bd54",
-    "parents": "ac32a9bd250e927ef231ac27596519cb965a5dd8",
-    "subject": "Editorial: Convert some If steps to single-line"
-   },
-   {
-    "adate": "2026-07-01T14:35:35-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-07-01T14:35:35-04:00",
-    "hash": "ac32a9bd250e927ef231ac27596519cb965a5dd8",
-    "parents": "04087cb1b0df8fbc5c476c3181f16e7ad989dd25",
-    "subject": "Editorial: Replace some manual steps with GetOption"
-   }
-  ],
-  "title": "Editorial: Improve CreateDateTimeFormat",
-  "updated_at": "2026-07-01T18:57:57Z"
- },
- {
   "base": "b1c961988b9a07894b1dc3dc2b5626ea48387d61",
   "created_at": "2026-06-03T23:52:29Z",
   "head": "4ac300dc8733f201d74d09bc23787b10f9082606",
@@ -236,9 +144,9 @@
   "updated_at": "2026-09-01T22:51:47Z"
  },
  {
-  "base": "3d4c558180f643d7dea75f011a6355fb285f377e",
+  "base": "d06c498f7b53145528ff783b0656d7e100172b20",
   "created_at": "2026-05-11T04:11:34Z",
-  "head": "de688c16c581d557b0db3d04295da822f617fafc",
+  "head": "25a1c9b1fb8ed3b22e0033449e7bbbcd05ad7bb8",
   "login": "gibson042",
   "number": 1063,
   "ref": "2026-05-bound-functions",
@@ -246,14 +154,14 @@
    {
     "adate": "2026-05-11T00:06:46-04:00",
     "author": "Richard Gibson",
-    "date": "2026-05-11T00:09:40-04:00",
-    "hash": "de688c16c581d557b0db3d04295da822f617fafc",
-    "parents": "3d4c558180f643d7dea75f011a6355fb285f377e",
+    "date": "2026-10-08T13:32:52-04:00",
+    "hash": "25a1c9b1fb8ed3b22e0033449e7bbbcd05ad7bb8",
+    "parents": "d06c498f7b53145528ff783b0656d7e100172b20",
     "subject": "Editorial: Define {Collator,DateTimeFormat,NumberFormat} bound functions using Abstract Closures"
    }
   ],
   "title": "Editorial: Define {Collator,DateTimeFormat,NumberFormat} bound functions using Abstract Closures",
-  "updated_at": "2026-05-11T04:11:34Z"
+  "updated_at": "2026-10-08T17:33:17Z"
  },
  {
   "base": "4781b0ddf1b32f5ba86a0e99f2c602cf376e009d",
@@ -358,26 +266,6 @@
   ],
   "title": "Editorial: Refactor SetNumberFormatDigitOptions for comprehensibility",
   "updated_at": "2026-04-02T17:39:39Z"
- },
- {
-  "base": "6f9c75e3e724b077a54a0baae9ca0955c260d430",
-  "created_at": "2026-03-16T23:07:28Z",
-  "head": "9c7a1dcf60e45ff3b9749f6dbee3160119c6c165",
-  "login": "gibson042",
-  "number": 1048,
-  "ref": "gh-1046-well-formed-language-tag",
-  "revs": [
-   {
-    "adate": "2026-03-16T19:00:16-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-03-16T19:00:16-04:00",
-    "hash": "9c7a1dcf60e45ff3b9749f6dbee3160119c6c165",
-    "parents": "6f9c75e3e724b077a54a0baae9ca0955c260d430",
-    "subject": "Editorial: Clarify that \"well-formed language tag\" does not imply `unicode_bcp47_locale_id` well-formedness"
-   }
-  ],
-  "title": "Editorial: Clarify that \"well-formed language tag\" does not imply `unicode_bcp47_locale_id` well-formedness",
-  "updated_at": "2026-03-16T23:07:28Z"
  },
  {
   "base": "6f9c75e3e724b077a54a0baae9ca0955c260d430",

@@ -1,5 +1,29 @@
 [
  {
+  "adate": "2026-10-09T02:21:03+09:00",
+  "author": "Richard Gibson",
+  "date": "2026-10-08T13:21:03-04:00",
+  "hash": "d06c498f7b53145528ff783b0656d7e100172b20",
+  "parents": "259baee2f2d36465bac52815a682460b49480ddd",
+  "subject": "Editorial: Generalize ResolveLocale to support pure BCP 47 lookup without localeData (#1096)"
+ },
+ {
+  "adate": "2026-10-09T02:02:46+09:00",
+  "author": "Richard Gibson",
+  "date": "2026-10-08T13:02:46-04:00",
+  "hash": "259baee2f2d36465bac52815a682460b49480ddd",
+  "parents": "30c4d132ff5eb41c398cdb26cdfc8c387625ab46",
+  "subject": "Editorial: Improve CreateDateTimeFormat (#1079)"
+ },
+ {
+  "adate": "2026-10-09T01:59:07+09:00",
+  "author": "Richard Gibson",
+  "date": "2026-10-08T12:59:07-04:00",
+  "hash": "30c4d132ff5eb41c398cdb26cdfc8c387625ab46",
+  "parents": "7ae78cfdf8255468ffc8ebda33dafaea952808dd",
+  "subject": "Editorial: Clarify that \"well-formed language tag\" does not imply `unicode_bcp47_locale_id` well-formedness (#1048)"
+ },
+ {
   "adate": "2026-10-06T11:26:23-04:00",
   "author": "jugglinmike",
   "date": "2026-10-06T11:26:23-04:00",
