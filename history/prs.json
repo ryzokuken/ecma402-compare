@@ -88,9 +88,9 @@
   "updated_at": "2026-09-17T19:32:00Z"
  },
  {
-  "base": "020a867cb82453aac1fc298729bd0a68b1ef2a13",
+  "base": "730ca2b88c305862db7be2f83c510dcca33ab48c",
   "created_at": "2026-08-07T10:06:34Z",
-  "head": "2045bc60fb5e0917837fbcc9ace863f2469e328e",
+  "head": "297adf040d837284947b306596077facad00a886",
   "login": "jessealama",
   "number": 1093,
   "ref": "allow-engines-to-ship-data-for-locales-in-accept-language",
@@ -98,14 +98,14 @@
    {
     "adate": "2026-08-07T11:58:51+02:00",
     "author": "Jesse Alama",
-    "date": "2026-08-07T11:58:51+02:00",
-    "hash": "2045bc60fb5e0917837fbcc9ace863f2469e328e",
-    "parents": "020a867cb82453aac1fc298729bd0a68b1ef2a13",
+    "date": "2026-10-12T05:03:43+02:00",
+    "hash": "297adf040d837284947b306596077facad00a886",
+    "parents": "730ca2b88c305862db7be2f83c510dcca33ab48c",
     "subject": "Determine the initial set of locales from available languages, too"
    }
   ],
   "title": "Use language preferences in determining locales",
-  "updated_at": "2026-08-07T10:06:34Z"
+  "updated_at": "2026-10-12T03:03:45Z"
  },
  {
   "base": "b1c961988b9a07894b1dc3dc2b5626ea48387d61",
@@ -142,26 +142,6 @@
   ],
   "title": "Normative: Allow Locale.p.getNumberingSystems to return >1 item",
   "updated_at": "2026-09-01T22:51:47Z"
- },
- {
-  "base": "d06c498f7b53145528ff783b0656d7e100172b20",
-  "created_at": "2026-05-11T04:11:34Z",
-  "head": "25a1c9b1fb8ed3b22e0033449e7bbbcd05ad7bb8",
-  "login": "gibson042",
-  "number": 1063,
-  "ref": "2026-05-bound-functions",
-  "revs": [
-   {
-    "adate": "2026-05-11T00:06:46-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-10-08T13:32:52-04:00",
-    "hash": "25a1c9b1fb8ed3b22e0033449e7bbbcd05ad7bb8",
-    "parents": "d06c498f7b53145528ff783b0656d7e100172b20",
-    "subject": "Editorial: Define {Collator,DateTimeFormat,NumberFormat} bound functions using Abstract Closures"
-   }
-  ],
-  "title": "Editorial: Define {Collator,DateTimeFormat,NumberFormat} bound functions using Abstract Closures",
-  "updated_at": "2026-10-08T17:33:17Z"
  },
  {
   "base": "4781b0ddf1b32f5ba86a0e99f2c602cf376e009d",
