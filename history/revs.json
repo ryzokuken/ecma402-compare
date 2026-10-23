@@ -1,5 +1,13 @@
 [
  {
+  "adate": "2026-10-23T16:14:18-04:00",
+  "author": "Richard Gibson",
+  "date": "2026-10-23T16:14:18-04:00",
+  "hash": "3691634ebc1794f2af74cb26e59824b21090c3ad",
+  "parents": "cfc2bb31842788303ead13932b4dc099590e8d7d",
+  "subject": "Editorial: Refactor SetNumberFormatDigitOptions for comprehensibility (#1050)"
+ },
+ {
   "adate": "2026-10-22T13:51:37-04:00",
   "author": "Richard Gibson",
   "date": "2026-10-22T13:51:37-04:00",
