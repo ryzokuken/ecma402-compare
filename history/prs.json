@@ -20,9 +20,9 @@
   "updated_at": "2026-09-29T18:43:45Z"
  },
  {
-  "base": "730ca2b88c305862db7be2f83c510dcca33ab48c",
+  "base": "3691634ebc1794f2af74cb26e59824b21090c3ad",
   "created_at": "2026-09-22T10:36:13Z",
-  "head": "ec0b7c051ae2589aca61dd9601c73aebc8ea34e6",
+  "head": "31ef2b3d2d86a0254ca7d08d2b6b764618f0f69e",
   "login": "linusg",
   "number": 1102,
   "ref": "options",
@@ -30,14 +30,14 @@
    {
     "adate": "2026-09-22T11:27:52+01:00",
     "author": "Linus Groh",
-    "date": "2026-10-22T17:16:48+01:00",
-    "hash": "ec0b7c051ae2589aca61dd9601c73aebc8ea34e6",
-    "parents": "730ca2b88c305862db7be2f83c510dcca33ab48c",
+    "date": "2026-10-26T15:46:07Z",
+    "hash": "31ef2b3d2d86a0254ca7d08d2b6b764618f0f69e",
+    "parents": "3691634ebc1794f2af74cb26e59824b21090c3ad",
     "subject": "Editorial: Drop GetOption in favor of ECMA-262 option AOs"
    }
   ],
   "title": "Editorial: Drop GetOption in favor of ECMA-262 option AOs",
-  "updated_at": "2026-10-22T16:17:13Z"
+  "updated_at": "2026-10-26T15:47:18Z"
  },
  {
   "base": "b1c961988b9a07894b1dc3dc2b5626ea48387d61",
@@ -58,34 +58,6 @@
   ],
   "title": "Normative: Determine getWeekInfo().firstDay using First Day Overrides",
   "updated_at": "2026-09-02T18:58:44Z"
- },
- {
-  "base": "832ec18d28325d1a30661f3d02271d365a1f9784",
-  "created_at": "2026-08-23T19:25:22Z",
-  "head": "7c6de7db555c539164bb1ab926d9e64c3fc0f61a",
-  "login": "gibson042",
-  "number": 1095,
-  "ref": "2026-08-define-typedarray-tolocalestring",
-  "revs": [
-   {
-    "adate": "2026-08-23T15:16:38-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-09-17T15:31:13-04:00",
-    "hash": "7c6de7db555c539164bb1ab926d9e64c3fc0f61a",
-    "parents": "624a7331f3a6a742063a8437d5638155f7c9c388",
-    "subject": "Normative: Define %TypedArray%.prototype.toLocaleString"
-   },
-   {
-    "adate": "2026-08-23T15:16:38-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-09-17T15:31:13-04:00",
-    "hash": "624a7331f3a6a742063a8437d5638155f7c9c388",
-    "parents": "b1c961988b9a07894b1dc3dc2b5626ea48387d61",
-    "subject": "Editorial: Simplify Array.prototype.toLocaleString"
-   }
-  ],
-  "title": "Normative: Define %TypedArray%.prototype.toLocaleString",
-  "updated_at": "2026-09-17T19:32:00Z"
  },
  {
   "base": "730ca2b88c305862db7be2f83c510dcca33ab48c",
@@ -162,90 +134,6 @@
   ],
   "title": "Normative: Align RegionPreference and CanonicalUnicodeSubdivision with UTS 35",
   "updated_at": "2026-04-15T13:18:38Z"
- },
- {
-  "base": "bfe565d508f4b35c4eb045bd47c11214caeb63d9",
-  "created_at": "2026-04-02T17:39:39Z",
-  "head": "574c11d05a5632391579d2dbc5e7ac47bb6ef6ad",
-  "login": "gibson042",
-  "number": 1050,
-  "ref": "2026-04-numberformat-aliases",
-  "revs": [
-   {
-    "adate": "2026-04-02T13:35:00-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-04-02T13:35:00-04:00",
-    "hash": "574c11d05a5632391579d2dbc5e7ac47bb6ef6ad",
-    "parents": "6f0df04496184bea7a7c81cd4b34185a261e782e",
-    "subject": "Editorial: Narrow the type of SetNumberFormatDigitOptions parameter _intlObj_"
-   },
-   {
-    "adate": "2026-04-02T13:29:55-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-04-02T13:30:30-04:00",
-    "hash": "6f0df04496184bea7a7c81cd4b34185a261e782e",
-    "parents": "a2a47e1a2967a4ac2e2138f97e11711cc84bb71b",
-    "subject": "Editorial: Refactor SetNumberFormatDigitOptions steps to eliminate needSD/needFD reassignment"
-   },
-   {
-    "adate": "2026-04-02T13:15:16-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-04-02T13:15:16-04:00",
-    "hash": "a2a47e1a2967a4ac2e2138f97e11711cc84bb71b",
-    "parents": "36ecc110a297beb06d2a0bf3e2ffd98b0c49a732",
-    "subject": "Editorial: Reword a note in SetNumberFormatDigitOptions"
-   },
-   {
-    "adate": "2026-04-02T13:11:42-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-04-02T13:11:42-04:00",
-    "hash": "36ecc110a297beb06d2a0bf3e2ffd98b0c49a732",
-    "parents": "59e7bd98d45539bba60ca85aa949b1c01b418ac2",
-    "subject": "Editorial: For consistency, reintroduce an alias for SetNumberFormatDigitOptions reading `minimumIntegerDigits`"
-   },
-   {
-    "adate": "2026-04-02T13:02:54-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-04-02T13:02:54-04:00",
-    "hash": "59e7bd98d45539bba60ca85aa949b1c01b418ac2",
-    "parents": "85da4d52f32e580afec1698718288d20dc9b48b2",
-    "subject": "Editorial: In NumberFormat alias names, abbreviate \"FractionDigits\" as \"FD\" and \"SignificantDigits\" as \"SD\""
-   },
-   {
-    "adate": "2026-04-02T12:52:23-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-04-02T12:52:23-04:00",
-    "hash": "85da4d52f32e580afec1698718288d20dc9b48b2",
-    "parents": "075ad281b7e471ccd70d0e2a21b1d72f7f7cea86",
-    "subject": "Editorial: In NumberFormat alias names, use \"min\" rather than \"mn\" and \"max\" rather than \"mx\""
-   },
-   {
-    "adate": "2026-04-02T12:41:05-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-04-02T12:41:05-04:00",
-    "hash": "075ad281b7e471ccd70d0e2a21b1d72f7f7cea86",
-    "parents": "9ab0304147440c4700ff08e4f1f2b73809e0a349",
-    "subject": "Editorial: Remove an unnecessary alias in SetNumberFormatDigitOptions"
-   },
-   {
-    "adate": "2026-04-02T12:39:30-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-04-02T12:39:30-04:00",
-    "hash": "9ab0304147440c4700ff08e4f1f2b73809e0a349",
-    "parents": "49ddcc5b62fa2a41cbaed27ea861c20f0d80139d",
-    "subject": "Editorial: Reduce alias overloading in SetNumberFormatDigitOptions"
-   },
-   {
-    "adate": "2026-04-02T12:37:15-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-04-02T12:37:15-04:00",
-    "hash": "49ddcc5b62fa2a41cbaed27ea861c20f0d80139d",
-    "parents": "bfe565d508f4b35c4eb045bd47c11214caeb63d9",
-    "subject": "Editorial: Reduce nesting depth in the Intl.NumberFormat constructor"
-   }
-  ],
-  "title": "Editorial: Refactor SetNumberFormatDigitOptions for comprehensibility",
-  "updated_at": "2026-04-02T17:39:39Z"
  },
  {
   "base": "6f9c75e3e724b077a54a0baae9ca0955c260d430",
