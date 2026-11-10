@@ -2,11 +2,19 @@
  {
   "base": "3691634ebc1794f2af74cb26e59824b21090c3ad",
   "created_at": "2026-11-05T19:47:54Z",
-  "head": "f45f72dd47b796a86ca07b6d8ffe9aef4cec73b0",
+  "head": "a54f07e4a87490301123a9d6e30b6842a81e4239",
   "login": "jugglinmike",
   "number": 1109,
   "ref": "correct-desc-of-internal-slots",
   "revs": [
+   {
+    "adate": "2026-11-09T19:39:00-05:00",
+    "author": "Mike Pennisi",
+    "date": "2026-11-09T19:39:00-05:00",
+    "hash": "a54f07e4a87490301123a9d6e30b6842a81e4239",
+    "parents": "f45f72dd47b796a86ca07b6d8ffe9aef4cec73b0",
+    "subject": "fixup! Editorial: correct description of internal slots"
+   },
    {
     "adate": "2026-11-05T14:34:48-05:00",
     "author": "Mike Pennisi",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Editorial: correct description of internal slots",
-  "updated_at": "2026-11-05T19:47:54Z"
+  "updated_at": "2026-11-10T00:40:57Z"
  },
  {
   "base": "3691634ebc1794f2af74cb26e59824b21090c3ad",
