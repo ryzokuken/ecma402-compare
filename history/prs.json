@@ -1,6 +1,66 @@
 [
  {
   "base": "3691634ebc1794f2af74cb26e59824b21090c3ad",
+  "created_at": "2026-11-12T10:51:07Z",
+  "head": "89bdd05ec555b577944f74d804e5d06354cc27ce",
+  "login": "JinDX",
+  "number": 1112,
+  "ref": "editorial/pluralrules-digit-options-signature",
+  "revs": [
+   {
+    "adate": "2026-11-12T18:30:27+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-11-12T18:30:27+08:00",
+    "hash": "89bdd05ec555b577944f74d804e5d06354cc27ce",
+    "parents": "3691634ebc1794f2af74cb26e59824b21090c3ad",
+    "subject": "Editorial: Include Intl.PluralRules in the digit options parameter type"
+   }
+  ],
+  "title": "Editorial: Include Intl.PluralRules in the digit options parameter type",
+  "updated_at": "2026-11-12T10:51:07Z"
+ },
+ {
+  "base": "3691634ebc1794f2af74cb26e59824b21090c3ad",
+  "created_at": "2026-11-12T10:50:50Z",
+  "head": "8ef48aced5e4f11e27e5fb5688daa1dc32f73138",
+  "login": "JinDX",
+  "number": 1111,
+  "ref": "editorial/numeric-option-range-before-floor",
+  "revs": [
+   {
+    "adate": "2026-11-12T18:30:44+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-11-12T18:30:44+08:00",
+    "hash": "8ef48aced5e4f11e27e5fb5688daa1dc32f73138",
+    "parents": "3691634ebc1794f2af74cb26e59824b21090c3ad",
+    "subject": "Editorial: Describe the range check before flooring numeric options"
+   }
+  ],
+  "title": "Editorial: Describe the range check before flooring numeric options",
+  "updated_at": "2026-11-12T10:50:50Z"
+ },
+ {
+  "base": "3691634ebc1794f2af74cb26e59824b21090c3ad",
+  "created_at": "2026-11-12T10:50:27Z",
+  "head": "2658eff996b1460cf687fe9b7f6271f0dd633553",
+  "login": "JinDX",
+  "number": 1110,
+  "ref": "editorial/significant-digit-slot-descriptions",
+  "revs": [
+   {
+    "adate": "2026-11-12T18:30:34+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-11-12T18:30:34+08:00",
+    "hash": "2658eff996b1460cf687fe9b7f6271f0dd633553",
+    "parents": "3691634ebc1794f2af74cb26e59824b21090c3ad",
+    "subject": "Editorial: Correct the significant-digit slot descriptions"
+   }
+  ],
+  "title": "Editorial: Correct the significant-digit slot descriptions",
+  "updated_at": "2026-11-12T10:50:27Z"
+ },
+ {
+  "base": "3691634ebc1794f2af74cb26e59824b21090c3ad",
   "created_at": "2026-11-05T19:47:54Z",
   "head": "a54f07e4a87490301123a9d6e30b6842a81e4239",
   "login": "jugglinmike",
