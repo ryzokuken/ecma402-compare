@@ -1,5 +1,29 @@
 [
  {
+  "adate": "2026-11-13T12:02:50+08:00",
+  "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+  "date": "2026-11-12T23:02:50-05:00",
+  "hash": "34ffb0be1af2d5041121472a5e15e20c0b7f1cd2",
+  "parents": "b3c91171f490d1c5df52afe44b136de2aad266b2",
+  "subject": "Editorial: Clarify numeric option range validation (#1111)"
+ },
+ {
+  "adate": "2026-11-13T07:45:31+08:00",
+  "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+  "date": "2026-11-12T18:45:31-05:00",
+  "hash": "b3c91171f490d1c5df52afe44b136de2aad266b2",
+  "parents": "7ebf86474d819263e2e0881d2ad816e45aeac786",
+  "subject": "Editorial: Include Intl.PluralRules in the digit options parameter type (#1112)"
+ },
+ {
+  "adate": "2026-11-13T07:40:22+08:00",
+  "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+  "date": "2026-11-12T18:40:22-05:00",
+  "hash": "7ebf86474d819263e2e0881d2ad816e45aeac786",
+  "parents": "3691634ebc1794f2af74cb26e59824b21090c3ad",
+  "subject": "Editorial: Correct the significant-digit slot descriptions (#1110)"
+ },
+ {
   "adate": "2026-10-23T16:14:18-04:00",
   "author": "Richard Gibson",
   "date": "2026-10-23T16:14:18-04:00",
