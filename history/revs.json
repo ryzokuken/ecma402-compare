@@ -1,5 +1,21 @@
 [
  {
+  "adate": "2026-11-15T07:26:41+08:00",
+  "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+  "date": "2026-11-14T18:26:41-05:00",
+  "hash": "c971fad86aa1a4c059658363a46a322526b94513",
+  "parents": "147edcc07e95c71045453d29c821a57629b90b40",
+  "subject": "Allow accounting negative patterns without a minus-sign placeholder (#1114)"
+ },
+ {
+  "adate": "2026-11-15T07:24:07+08:00",
+  "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+  "date": "2026-11-14T18:24:07-05:00",
+  "hash": "147edcc07e95c71045453d29c821a57629b90b40",
+  "parents": "af194df3c8633510a6c5982e8dbdb00cb3b6105f",
+  "subject": "Editorial: Describe StringSplitToList when the separator is absent (#1113)"
+ },
+ {
   "adate": "2026-11-13T15:38:42-08:00",
   "author": "Shane F. Carr",
   "date": "2026-11-13T15:38:42-08:00",

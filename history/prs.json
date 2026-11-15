@@ -1,12 +1,40 @@
 [
  {
+  "base": "c971fad86aa1a4c059658363a46a322526b94513",
+  "created_at": "2026-11-15T02:32:42Z",
+  "head": "4b6c1773a2c716b2eb9ac0072822fc6d64b34fc7",
+  "login": "longlho",
+  "number": 1117,
+  "ref": "codex/compact-number-pattern-composition",
+  "revs": [
+   {
+    "adate": "2026-11-15T02:32:10Z",
+    "author": "Long Ho",
+    "date": "2026-11-15T02:32:10Z",
+    "hash": "4b6c1773a2c716b2eb9ac0072822fc6d64b34fc7",
+    "parents": "c971fad86aa1a4c059658363a46a322526b94513",
+    "subject": "Normative: Select complete compact NumberFormat patterns"
+   }
+  ],
+  "title": "Normative: Select complete compact NumberFormat patterns",
+  "updated_at": "2026-11-15T02:46:02Z"
+ },
+ {
   "base": "af194df3c8633510a6c5982e8dbdb00cb3b6105f",
   "created_at": "2026-11-14T01:11:50Z",
-  "head": "649c5f4ee717590069d67ab64140f9c4c366a01f",
+  "head": "0f87dc0351ff8e823c680c64701aa6322221b7c3",
   "login": "JinDX",
   "number": 1115,
   "ref": "normative/collator-reads-optional-extension-record-fields",
   "revs": [
+   {
+    "adate": "2026-11-15T08:49:19+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-11-15T08:49:19+08:00",
+    "hash": "0f87dc0351ff8e823c680c64701aa6322221b7c3",
+    "parents": "649c5f4ee717590069d67ab64140f9c4c366a01f",
+    "subject": "Editorial: Clarify Intl.Collator instance slot values"
+   },
    {
     "adate": "2026-11-14T09:03:50+08:00",
     "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
@@ -17,47 +45,7 @@
    }
   ],
   "title": "Only read Collator locale fields for supported optional extension keys",
-  "updated_at": "2026-11-14T01:11:50Z"
- },
- {
-  "base": "af194df3c8633510a6c5982e8dbdb00cb3b6105f",
-  "created_at": "2026-11-14T01:11:43Z",
-  "head": "014402c6ab558b44ab5a0235e4bf52e33322a926",
-  "login": "JinDX",
-  "number": 1114,
-  "ref": "normative/accounting-negative-pattern-requires-minus-sign",
-  "revs": [
-   {
-    "adate": "2026-11-14T09:06:17+08:00",
-    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
-    "date": "2026-11-14T09:06:17+08:00",
-    "hash": "014402c6ab558b44ab5a0235e4bf52e33322a926",
-    "parents": "af194df3c8633510a6c5982e8dbdb00cb3b6105f",
-    "subject": "Normative: Allow accounting negative patterns without a minus-sign placeholder"
-   }
-  ],
-  "title": "Allow accounting negative patterns without a minus-sign placeholder",
-  "updated_at": "2026-11-14T01:11:43Z"
- },
- {
-  "base": "af194df3c8633510a6c5982e8dbdb00cb3b6105f",
-  "created_at": "2026-11-14T01:11:36Z",
-  "head": "3b564f3945a9b5abf1f12d1dffe319eccbacfef9",
-  "login": "JinDX",
-  "number": 1113,
-  "ref": "editorial/stringsplittolist-separator-absent",
-  "revs": [
-   {
-    "adate": "2026-11-14T09:04:13+08:00",
-    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
-    "date": "2026-11-14T09:04:13+08:00",
-    "hash": "3b564f3945a9b5abf1f12d1dffe319eccbacfef9",
-    "parents": "af194df3c8633510a6c5982e8dbdb00cb3b6105f",
-    "subject": "Editorial: Describe StringSplitToList when the separator is absent"
-   }
-  ],
-  "title": "Describe StringSplitToList when the separator is absent",
-  "updated_at": "2026-11-14T01:11:36Z"
+  "updated_at": "2026-11-15T00:51:47Z"
  },
  {
   "base": "3691634ebc1794f2af74cb26e59824b21090c3ad",
