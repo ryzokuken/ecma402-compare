@@ -1,5 +1,13 @@
 [
  {
+  "adate": "2026-11-15T13:45:23+08:00",
+  "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+  "date": "2026-11-15T00:45:23-05:00",
+  "hash": "be303d91e4579556b07f4f50940933d18ade0f0a",
+  "parents": "c971fad86aa1a4c059658363a46a322526b94513",
+  "subject": "Normative: Only read Collator locale fields for supported extension keys (#1115)"
+ },
+ {
   "adate": "2026-11-15T07:26:41+08:00",
   "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
   "date": "2026-11-14T18:26:41-05:00",

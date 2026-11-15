@@ -1,5 +1,45 @@
 [
  {
+  "base": "be303d91e4579556b07f4f50940933d18ade0f0a",
+  "created_at": "2026-11-15T08:35:20Z",
+  "head": "a78770cf21ec4b8bb3c6956970e04ff79d8b717a",
+  "login": "JinDX",
+  "number": 1119,
+  "ref": "editorial/datetimeformat-hourcycle-undefined-slot",
+  "revs": [
+   {
+    "adate": "2026-11-14T09:05:53+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-11-14T09:05:53+08:00",
+    "hash": "a78770cf21ec4b8bb3c6956970e04ff79d8b717a",
+    "parents": "af194df3c8633510a6c5982e8dbdb00cb3b6105f",
+    "subject": "Editorial: Describe the unset HourCycle slot on date-only DateTimeFormat instances"
+   }
+  ],
+  "title": "Describe the unset HourCycle slot on date-only DateTimeFormat instances",
+  "updated_at": "2026-11-15T08:35:20Z"
+ },
+ {
+  "base": "be303d91e4579556b07f4f50940933d18ade0f0a",
+  "created_at": "2026-11-15T07:25:25Z",
+  "head": "04c96aec681a9710ff630a86a900c8743ed28ecd",
+  "login": "JinDX",
+  "number": 1118,
+  "ref": "normative/datetimeformat-hour12-boolean-stringification",
+  "revs": [
+   {
+    "adate": "2026-11-14T09:04:06+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-11-14T09:04:06+08:00",
+    "hash": "04c96aec681a9710ff630a86a900c8743ed28ecd",
+    "parents": "af194df3c8633510a6c5982e8dbdb00cb3b6105f",
+    "subject": "Normative: Restore the Boolean hour12 value before selecting a DateTimeFormat hour cycle"
+   }
+  ],
+  "title": "Restore the Boolean hour12 value before selecting a DateTimeFormat hour cycle",
+  "updated_at": "2026-11-15T07:25:25Z"
+ },
+ {
   "base": "c971fad86aa1a4c059658363a46a322526b94513",
   "created_at": "2026-11-15T02:32:42Z",
   "head": "4b6c1773a2c716b2eb9ac0072822fc6d64b34fc7",
@@ -18,34 +58,6 @@
   ],
   "title": "Normative: Select complete compact NumberFormat patterns",
   "updated_at": "2026-11-15T02:46:02Z"
- },
- {
-  "base": "af194df3c8633510a6c5982e8dbdb00cb3b6105f",
-  "created_at": "2026-11-14T01:11:50Z",
-  "head": "0f87dc0351ff8e823c680c64701aa6322221b7c3",
-  "login": "JinDX",
-  "number": 1115,
-  "ref": "normative/collator-reads-optional-extension-record-fields",
-  "revs": [
-   {
-    "adate": "2026-11-15T08:49:19+08:00",
-    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
-    "date": "2026-11-15T08:49:19+08:00",
-    "hash": "0f87dc0351ff8e823c680c64701aa6322221b7c3",
-    "parents": "649c5f4ee717590069d67ab64140f9c4c366a01f",
-    "subject": "Editorial: Clarify Intl.Collator instance slot values"
-   },
-   {
-    "adate": "2026-11-14T09:03:50+08:00",
-    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
-    "date": "2026-11-14T09:03:50+08:00",
-    "hash": "649c5f4ee717590069d67ab64140f9c4c366a01f",
-    "parents": "af194df3c8633510a6c5982e8dbdb00cb3b6105f",
-    "subject": "Normative: Only read Collator locale fields for supported optional extension keys"
-   }
-  ],
-  "title": "Only read Collator locale fields for supported optional extension keys",
-  "updated_at": "2026-11-15T00:51:47Z"
  },
  {
   "base": "3691634ebc1794f2af74cb26e59824b21090c3ad",
