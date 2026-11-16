@@ -1,32 +1,120 @@
 [
  {
-  "base": "be303d91e4579556b07f4f50940933d18ade0f0a",
-  "created_at": "2026-11-15T08:35:20Z",
-  "head": "a78770cf21ec4b8bb3c6956970e04ff79d8b717a",
+  "base": "60da08a2b5b09343e260618cd72c2e5937cbfeda",
+  "created_at": "2026-11-16T02:17:46Z",
+  "head": "555b74206464230d724f893c624d4dfed8123282",
   "login": "JinDX",
-  "number": 1119,
-  "ref": "editorial/datetimeformat-hourcycle-undefined-slot",
+  "number": 1124,
+  "ref": "editorial/filterlocales-array-return-type",
   "revs": [
    {
-    "adate": "2026-11-14T09:05:53+08:00",
+    "adate": "2026-11-14T09:03:35+08:00",
     "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
-    "date": "2026-11-14T09:05:53+08:00",
-    "hash": "a78770cf21ec4b8bb3c6956970e04ff79d8b717a",
+    "date": "2026-11-14T09:03:35+08:00",
+    "hash": "555b74206464230d724f893c624d4dfed8123282",
     "parents": "af194df3c8633510a6c5982e8dbdb00cb3b6105f",
-    "subject": "Editorial: Describe the unset HourCycle slot on date-only DateTimeFormat instances"
+    "subject": "Editorial: Correct the return type of FilterLocales"
    }
   ],
-  "title": "Describe the unset HourCycle slot on date-only DateTimeFormat instances",
-  "updated_at": "2026-11-15T08:35:20Z"
+  "title": "Correct the return type of FilterLocales",
+  "updated_at": "2026-11-16T02:17:46Z"
+ },
+ {
+  "base": "60da08a2b5b09343e260618cd72c2e5937cbfeda",
+  "created_at": "2026-11-16T02:17:36Z",
+  "head": "86bcb0ead95d844c88929f787387cf4de03f1305",
+  "login": "JinDX",
+  "number": 1123,
+  "ref": "editorial/durationformat-fractional-style-record-domain",
+  "revs": [
+   {
+    "adate": "2026-11-14T09:03:43+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-11-14T09:03:43+08:00",
+    "hash": "86bcb0ead95d844c88929f787387cf4de03f1305",
+    "parents": "af194df3c8633510a6c5982e8dbdb00cb3b6105f",
+    "subject": "Editorial: Include the internal fractional duration unit style in the record type"
+   }
+  ],
+  "title": "Include the internal fractional duration unit style in the record type",
+  "updated_at": "2026-11-16T02:17:36Z"
+ },
+ {
+  "base": "60da08a2b5b09343e260618cd72c2e5937cbfeda",
+  "created_at": "2026-11-16T02:17:22Z",
+  "head": "378633cc14d6dd0321224cf7ce725d3a77a655f2",
+  "login": "JinDX",
+  "number": 1122,
+  "ref": "editorial/durationformat-fraction-digits-number-conversion",
+  "revs": [
+   {
+    "adate": "2026-11-14T09:06:14+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-11-14T09:06:14+08:00",
+    "hash": "378633cc14d6dd0321224cf7ce725d3a77a655f2",
+    "parents": "af194df3c8633510a6c5982e8dbdb00cb3b6105f",
+    "subject": "Editorial: Convert DurationFormat fractional digits before setting NumberFormat options"
+   }
+  ],
+  "title": "Convert DurationFormat fractional digits before setting NumberFormat options",
+  "updated_at": "2026-11-16T02:17:23Z"
+ },
+ {
+  "base": "60da08a2b5b09343e260618cd72c2e5937cbfeda",
+  "created_at": "2026-11-16T02:17:06Z",
+  "head": "1f5b2ff3b4e6212ccfe8b4aad0dbcceebf5f56ab",
+  "login": "JinDX",
+  "number": 1121,
+  "ref": "normative/displaynames-required-language-data-fields",
+  "revs": [
+   {
+    "adate": "2026-11-14T09:03:59+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-11-14T09:03:59+08:00",
+    "hash": "1f5b2ff3b4e6212ccfe8b4aad0dbcceebf5f56ab",
+    "parents": "af194df3c8633510a6c5982e8dbdb00cb3b6105f",
+    "subject": "Normative: Require DisplayNames locale data for every language display and style"
+   }
+  ],
+  "title": "Require DisplayNames locale data for every language display and style",
+  "updated_at": "2026-11-16T02:17:06Z"
+ },
+ {
+  "base": "60da08a2b5b09343e260618cd72c2e5937cbfeda",
+  "created_at": "2026-11-16T02:16:56Z",
+  "head": "1fe6f48d1c71194c24778977092acfabe2d0d626",
+  "login": "JinDX",
+  "number": 1120,
+  "ref": "normative/datetimeformat-style-range-pattern12-optional",
+  "revs": [
+   {
+    "adate": "2026-11-14T09:06:24+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-11-14T09:06:24+08:00",
+    "hash": "1fe6f48d1c71194c24778977092acfabe2d0d626",
+    "parents": "af194df3c8633510a6c5982e8dbdb00cb3b6105f",
+    "subject": "Normative: Require combined date/time range patterns for 12-hour formats"
+   }
+  ],
+  "title": "Require combined date/time range patterns for 12-hour formats",
+  "updated_at": "2026-11-16T02:16:56Z"
  },
  {
   "base": "be303d91e4579556b07f4f50940933d18ade0f0a",
   "created_at": "2026-11-15T07:25:25Z",
-  "head": "04c96aec681a9710ff630a86a900c8743ed28ecd",
+  "head": "a69090d9ab29942203f049f26614582851e9eee5",
   "login": "JinDX",
   "number": 1118,
   "ref": "normative/datetimeformat-hour12-boolean-stringification",
   "revs": [
+   {
+    "adate": "2026-11-16T08:23:24+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-11-16T08:23:24+08:00",
+    "hash": "a69090d9ab29942203f049f26614582851e9eee5",
+    "parents": "04c96aec681a9710ff630a86a900c8743ed28ecd",
+    "subject": "Normative: Compare resolved hour12 string values directly"
+   },
    {
     "adate": "2026-11-14T09:04:06+08:00",
     "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
@@ -36,8 +124,8 @@
     "subject": "Normative: Restore the Boolean hour12 value before selecting a DateTimeFormat hour cycle"
    }
   ],
-  "title": "Restore the Boolean hour12 value before selecting a DateTimeFormat hour cycle",
-  "updated_at": "2026-11-15T07:25:25Z"
+  "title": "Normative: Compare resolved hour12 string values when selecting a DateTimeFormat hour cycle",
+  "updated_at": "2026-11-16T00:25:30Z"
  },
  {
   "base": "c971fad86aa1a4c059658363a46a322526b94513",

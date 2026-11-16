@@ -1,5 +1,13 @@
 [
  {
+  "adate": "2026-11-16T08:04:57+08:00",
+  "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+  "date": "2026-11-15T19:04:57-05:00",
+  "hash": "60da08a2b5b09343e260618cd72c2e5937cbfeda",
+  "parents": "be303d91e4579556b07f4f50940933d18ade0f0a",
+  "subject": "Editorial: Describe the unset [[HourCycle]] slot on date-only DateTimeFormat instances (#1119)"
+ },
+ {
   "adate": "2026-11-15T13:45:23+08:00",
   "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
   "date": "2026-11-15T00:45:23-05:00",
