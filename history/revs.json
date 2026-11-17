@@ -1,5 +1,29 @@
 [
  {
+  "adate": "2026-11-16T18:39:34-05:00",
+  "author": "Richard Gibson",
+  "date": "2026-11-16T18:39:34-05:00",
+  "hash": "0446577bc181f425dfc7603b78e1c9b078ef2379",
+  "parents": "626f560e2db9392afcb88a9a07971567b8da2416",
+  "subject": "Editorial: Better align types and aliases with UTS 35 (#1125)"
+ },
+ {
+  "adate": "2026-11-16T23:06:07+08:00",
+  "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+  "date": "2026-11-16T10:06:07-05:00",
+  "hash": "626f560e2db9392afcb88a9a07971567b8da2416",
+  "parents": "0f70b3648f38b314518254338cdb48159f522e8f",
+  "subject": "Editorial: Correct the return type of FilterLocales (#1124)"
+ },
+ {
+  "adate": "2026-11-16T23:03:48+08:00",
+  "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+  "date": "2026-11-16T10:03:48-05:00",
+  "hash": "0f70b3648f38b314518254338cdb48159f522e8f",
+  "parents": "60da08a2b5b09343e260618cd72c2e5937cbfeda",
+  "subject": "Normative: Compare resolved hour12 string values when selecting a DateTimeFormat hour cycle (#1118)"
+ },
+ {
   "adate": "2026-11-16T08:04:57+08:00",
   "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
   "date": "2026-11-15T19:04:57-05:00",
