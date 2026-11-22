@@ -1,6 +1,46 @@
 [
  {
   "base": "0446577bc181f425dfc7603b78e1c9b078ef2379",
+  "created_at": "2026-11-22T02:59:36Z",
+  "head": "287eabea3fa0f9ab55b57c7145c09aaf2a20b5d8",
+  "login": "JinDX",
+  "number": 1129,
+  "ref": "normative/listformat-template-set-must-not-be-empty-refresh-20261122",
+  "revs": [
+   {
+    "adate": "2026-11-22T10:29:37+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-11-22T10:29:37+08:00",
+    "hash": "287eabea3fa0f9ab55b57c7145c09aaf2a20b5d8",
+    "parents": "0446577bc181f425dfc7603b78e1c9b078ef2379",
+    "subject": "Require non-empty ListFormat template sets"
+   }
+  ],
+  "title": "Require non-empty ListFormat template sets",
+  "updated_at": "2026-11-22T02:59:36Z"
+ },
+ {
+  "base": "0446577bc181f425dfc7603b78e1c9b078ef2379",
+  "created_at": "2026-11-22T02:59:24Z",
+  "head": "8c27237994ff0a5dc43665a09070e74cd6d2488d",
+  "login": "JinDX",
+  "number": 1128,
+  "ref": "editorial/intl-locale-slot-value-domains-refresh-20261122",
+  "revs": [
+   {
+    "adate": "2026-11-22T10:29:13+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-11-22T10:29:13+08:00",
+    "hash": "8c27237994ff0a5dc43665a09070e74cd6d2488d",
+    "parents": "0446577bc181f425dfc7603b78e1c9b078ef2379",
+    "subject": "Describe the stored Unicode extension values in Intl.Locale"
+   }
+  ],
+  "title": "Describe the stored Unicode extension values in Intl.Locale",
+  "updated_at": "2026-11-22T02:59:24Z"
+ },
+ {
+  "base": "0446577bc181f425dfc7603b78e1c9b078ef2379",
   "created_at": "2026-11-19T21:18:15Z",
   "head": "8c630be0cff3738e7d377ab3db710fa376318b59",
   "login": "gibson042",
