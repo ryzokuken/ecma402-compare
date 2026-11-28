@@ -1,103 +1,23 @@
 [
  {
-  "base": "0446577bc181f425dfc7603b78e1c9b078ef2379",
-  "created_at": "2026-11-22T02:59:36Z",
-  "head": "287eabea3fa0f9ab55b57c7145c09aaf2a20b5d8",
-  "login": "JinDX",
-  "number": 1129,
-  "ref": "normative/listformat-template-set-must-not-be-empty-refresh-20261122",
+  "base": "6b8ddbe0f794a3a46aebe4f254ba42f41d5061b5",
+  "created_at": "2026-11-27T20:45:48Z",
+  "head": "f88a6c23afc5c482f53a000d9840c215c31fd465",
+  "login": "ptomato",
+  "number": 1130,
+  "ref": "ecma262-4107-parsetimezoneoffsetstring-sdo",
   "revs": [
    {
-    "adate": "2026-11-22T10:29:37+08:00",
-    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
-    "date": "2026-11-22T10:29:37+08:00",
-    "hash": "287eabea3fa0f9ab55b57c7145c09aaf2a20b5d8",
-    "parents": "0446577bc181f425dfc7603b78e1c9b078ef2379",
-    "subject": "Require non-empty ListFormat template sets"
+    "adate": "2026-11-27T21:45:21+01:00",
+    "author": "Philip Chimento",
+    "date": "2026-11-27T21:45:21+01:00",
+    "hash": "f88a6c23afc5c482f53a000d9840c215c31fd465",
+    "parents": "6b8ddbe0f794a3a46aebe4f254ba42f41d5061b5",
+    "subject": "Editorial: Adapt to SDO definition of ParseTimeZoneOffsetString"
    }
   ],
-  "title": "Require non-empty ListFormat template sets",
-  "updated_at": "2026-11-22T02:59:36Z"
- },
- {
-  "base": "0446577bc181f425dfc7603b78e1c9b078ef2379",
-  "created_at": "2026-11-22T02:59:24Z",
-  "head": "8c27237994ff0a5dc43665a09070e74cd6d2488d",
-  "login": "JinDX",
-  "number": 1128,
-  "ref": "editorial/intl-locale-slot-value-domains-refresh-20261122",
-  "revs": [
-   {
-    "adate": "2026-11-22T10:29:13+08:00",
-    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
-    "date": "2026-11-22T10:29:13+08:00",
-    "hash": "8c27237994ff0a5dc43665a09070e74cd6d2488d",
-    "parents": "0446577bc181f425dfc7603b78e1c9b078ef2379",
-    "subject": "Describe the stored Unicode extension values in Intl.Locale"
-   }
-  ],
-  "title": "Describe the stored Unicode extension values in Intl.Locale",
-  "updated_at": "2026-11-22T02:59:24Z"
- },
- {
-  "base": "0446577bc181f425dfc7603b78e1c9b078ef2379",
-  "created_at": "2026-11-19T21:18:15Z",
-  "head": "8c630be0cff3738e7d377ab3db710fa376318b59",
-  "login": "gibson042",
-  "number": 1127,
-  "ref": "2026-11-improve-getnumberformatpattern",
-  "revs": [
-   {
-    "adate": "2026-11-19T14:19:04-05:00",
-    "author": "Richard Gibson",
-    "date": "2026-11-19T18:03:19-05:00",
-    "hash": "8c630be0cff3738e7d377ab3db710fa376318b59",
-    "parents": "bb037ea8a6b410094e0d1cc05d5db33fbe2b1de5",
-    "subject": "Editorial: Fix inappropriate use of [[<integer>]] in GetNotationSubPattern"
-   },
-   {
-    "adate": "2026-11-19T14:19:04-05:00",
-    "author": "Richard Gibson",
-    "date": "2026-11-19T16:16:02-05:00",
-    "hash": "bb037ea8a6b410094e0d1cc05d5db33fbe2b1de5",
-    "parents": "e863335a1c744ef61f76f023906f15991596898c",
-    "subject": "Editorial: Simplify the return steps of GetNumberFormatPattern"
-   },
-   {
-    "adate": "2026-11-19T14:19:04-05:00",
-    "author": "Richard Gibson",
-    "date": "2026-11-19T16:08:49-05:00",
-    "hash": "e863335a1c744ef61f76f023906f15991596898c",
-    "parents": "1e75f34c447cf8350b88773a86b0b84f7195542e",
-    "subject": "Editorial: Make better use of Pattern String typing in NumberFormat operations"
-   },
-   {
-    "adate": "2026-11-19T14:19:04-05:00",
-    "author": "Richard Gibson",
-    "date": "2026-11-19T15:56:20-05:00",
-    "hash": "1e75f34c447cf8350b88773a86b0b84f7195542e",
-    "parents": "2aabb9879e9592921db7ff2e5e97d93b5955e794",
-    "subject": "Editorial: Clean up the description of %Intl.NumberFormat% Internal slots"
-   },
-   {
-    "adate": "2026-11-19T14:19:04-05:00",
-    "author": "Richard Gibson",
-    "date": "2026-11-19T14:21:46-05:00",
-    "hash": "2aabb9879e9592921db7ff2e5e97d93b5955e794",
-    "parents": "3a8107005188fe0d37561d90e3c69910a91125ac",
-    "subject": "Editorial: Order GetNumberFormatPattern branches by increasing complexity"
-   },
-   {
-    "adate": "2026-11-19T14:19:04-05:00",
-    "author": "Richard Gibson",
-    "date": "2026-11-19T14:19:04-05:00",
-    "hash": "3a8107005188fe0d37561d90e3c69910a91125ac",
-    "parents": "0446577bc181f425dfc7603b78e1c9b078ef2379",
-    "subject": "Editorial: Avoid alias overwriting in GetNumberFormatPattern"
-   }
-  ],
-  "title": "Editorial: Improve GetNumberFormatPattern",
-  "updated_at": "2026-11-19T23:04:30Z"
+  "title": "Editorial: Adapt to SDO definition of ParseTimeZoneOffsetString",
+  "updated_at": "2026-11-27T20:45:48Z"
  },
  {
   "base": "60da08a2b5b09343e260618cd72c2e5937cbfeda",
